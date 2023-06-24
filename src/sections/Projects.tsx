@@ -37,14 +37,14 @@ const projectList = [
 
 const Projects = () => {
   return (
-    <div className="min-h-screen">
+    <div className="border-y-[9px] border-[#DDDBDB] min-h-screen">
         <div className="flex w-full gap-20 items-start">
 
-            <div className="w-full bg-purple-700 py-[50vh]">
+            <div className="pl-60 w-full py-[50vh]">
                 <ul>
                     {projectList.map((project, id) => (
                         <li key={id}>
-                            <ProjectList>{project.title}</ProjectList>
+                            <ProjectList id={project.id.toLocaleString()} >{project.title}</ProjectList>
                         </li>
                     ))}
                 </ul>
@@ -52,9 +52,8 @@ const Projects = () => {
 
             <div className="w-full sticky top-0 h-screen flex justify-center items-center">
                 <div className="relative w-2/3 aspect-square bg-gray-100 rounded-2xl">
-                    {/* <ProjectPicture  gradient="from-[#f7f0ff] to-[#a78afe]"> I'm a card</ProjectPicture> */}
                     {projectList.map((project) => (
-                        < project.card key={project.id}/>
+                        < project.card id={project.id.toLocaleString()} key={project.id}/>
                     ))}
                 </div>
             </div>
