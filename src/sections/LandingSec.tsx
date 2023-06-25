@@ -3,8 +3,11 @@ import LandingSection from "../components/LandingSection"
 
 
 const LandingSec = () => {
+
+
   return (
-    <div className="relative min-h-[calc(screen-150px)] overflow-hidden bg-[#a08241]">
+    <div
+     className="relative min-h-[calc(screen-150px)] overflow-hidden bg-[#a08241]">
       <svg className="absolute opacity-90" viewBox='0 0 1550 4000' >
             <filter id='noiseFilter'>
                 <feTurbulence 

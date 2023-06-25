@@ -1,4 +1,5 @@
 import ProjectList from "../components/ProjectList"
+
 import { RoboticsPicture, AnimationPicture, ContentCreationPicture, GraphicDesignPicture, MotionGraphicsPicture, VRDevPicture, WebDevPicture } from "../components/ProjectPicture"
 
 const projectList = [
@@ -38,9 +39,9 @@ const projectList = [
 const Projects = () => {
   return (
     <div className="border-y-[9px] border-[#DDDBDB] min-h-screen">
-        <div className="flex w-full gap-20 items-start">
+        <div className="flex items-start w-full gap-3 tablet:gap-10">
 
-            <div className="pl-60 w-full py-[50vh]">
+            <div className="flex justify-end items-center w-full py-[50vh]">
                 <ul>
                     {projectList.map((project, id) => (
                         <li key={id}>
@@ -50,8 +51,9 @@ const Projects = () => {
                 </ul>
             </div >
 
-            <div className="w-full sticky top-0 h-screen flex justify-center items-center">
-                <div className="relative w-2/3 aspect-square bg-gray-100 rounded-2xl">
+            <div className="sticky top-0 flex items-center justify-center w-full h-screen">
+                <div className="relative flex justify-center items-center w-[200px] tablet:w-[350px] laptop:w-[500px] normal:w-[600px] bg-[#DDDBDB] aspect-square rounded-2xl">
+                    <div className="text-xl text-black tablet:text-4xl laptop:text-6xl font-handwriting">My projects</div>
                     {projectList.map((project) => (
                         < project.card id={project.id.toLocaleString()} key={project.id}/>
                     ))}

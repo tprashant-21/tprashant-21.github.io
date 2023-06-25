@@ -9,6 +9,7 @@ export default {
       fontFamily: {
         'bg-font': ['"Montserrat"', 'sans-serif'],
         'handwriting': ['Shadows Into Light', 'cursive'],
+        'poppins': ['Poppins', 'sans-serif']
       },
       screens: {
         'tablet': '820px',

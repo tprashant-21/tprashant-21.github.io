@@ -1,5 +1,21 @@
 import { useFeatureStore } from "../store";
 
+import motiontracker from "../assets/images/motiontracker.png"
+import glicee from "../assets/images/glicee.png"
+import covid from "../assets/images/covid.png"
+
+import vrlab from "../assets/images/vrlab.png"
+import vrbadge from "../assets/images/vrbadge.png"
+import basketbrawl from "../assets/images/basketbrawl.png"
+import vrgallery from "../assets/images/vrgallery.png"
+
+import buddha from "../assets/images/buddha.gif"
+
+import OpenInNew from "./OpenInNew";
+
+
+
+
 type ProjectPictureProps = {
     gradient: string;
     children: React.ReactNode;
@@ -24,7 +40,28 @@ const ProjectPicture = ({gradient, children, id}: ProjectPictureProps) => {
 export const WebDevPicture = ({id}: CardProps) => {
     return (
       <ProjectPicture id={id} gradient="from-[#f7f0ff] to-[#a78afe]">
-          <span/>
+          
+      <img
+        className="absolute left-[10%] -rotate-2 top-[4%] w-[50%] rounded-xl shadow-lg transition-transform"
+        src={motiontracker}
+      />
+      
+    
+      <img
+      className="absolute left-[11%] top-[69%] w-[49%] rotate-1 rounded-xl shadow-lg transition-transform"
+        src={covid}
+      />
+
+      
+
+      <img
+        className=
+          "absolute left-[36%] top-[36%] rotate-3 w-[51%] rounded-xl shadow-xl transition-transform"
+        src={glicee}
+      />
+
+      <OpenInNew />
+        
       </ProjectPicture>
     );
 };
@@ -32,7 +69,31 @@ export const WebDevPicture = ({id}: CardProps) => {
 export const VRDevPicture = ({id}: CardProps) => {
     return (
       <ProjectPicture id={id} gradient="from-[#2E3192] to-[#1BFFFF]">
-          <span/>
+          
+
+      <img
+        className=
+          "absolute left-[25%] top-[22%] w-[43%] rounded-xl shadow-3xl transition-transform"
+        src={vrlab}
+      />
+
+      <img
+        className="absolute left-[7%] top-[6%] w-[27%] rounded-xl transition-transform"
+        src={vrbadge}
+      />  
+
+    <img
+      className="absolute left-[52%] top-[8%] w-[36%] rotate-2 rounded-xl shadow-lg transition-transform"
+        src={vrgallery}
+      />
+      
+
+      <img
+      className="absolute left-[11%] top-[65%] w-[33%] -rotate-3 rounded-xl shadow-lg transition-transform"
+        src={basketbrawl}
+      />
+
+      <OpenInNew/>
       </ProjectPicture>
     );
 };
@@ -40,7 +101,12 @@ export const VRDevPicture = ({id}: CardProps) => {
 export const MotionGraphicsPicture = ({id}: CardProps) => {
     return (
       <ProjectPicture id={id} gradient="from-[#f7f0ff] to-[#a78afe]">
-          <span/>
+          <img
+          className="absolute left-[15%] top-[25%] w-[53%] rounded-xl shadow-lg transition-transform"
+            src={buddha}
+          />
+
+      <OpenInNew/>
       </ProjectPicture>
     );
 };
@@ -48,7 +114,7 @@ export const MotionGraphicsPicture = ({id}: CardProps) => {
 export const GraphicDesignPicture = ({id}: CardProps) => {
     return (
       <ProjectPicture id={id} gradient="from-[#2E3192] to-[#1BFFFF]">
-          <span/>
+        <OpenInNew />
       </ProjectPicture>
     );
 };
@@ -56,7 +122,7 @@ export const GraphicDesignPicture = ({id}: CardProps) => {
 export const ContentCreationPicture = ({id}: CardProps) => {
     return (
       <ProjectPicture id={id} gradient="from-[#f7f0ff] to-[#a78afe]">
-          <span/>
+        <OpenInNew />
       </ProjectPicture>
     );
 };
@@ -64,7 +130,7 @@ export const ContentCreationPicture = ({id}: CardProps) => {
 export const AnimationPicture = ({id}: CardProps) => {
     return (
       <ProjectPicture id={id} gradient="from-[#2E3192] to-[#1BFFFF]">
-          <span/>
+        <OpenInNew />
       </ProjectPicture>
     );
 };
@@ -72,7 +138,7 @@ export const AnimationPicture = ({id}: CardProps) => {
 export const RoboticsPicture = ({id}: CardProps) => {
     return (
       <ProjectPicture id={id} gradient="from-[#f7f0ff] to-[#a78afe]">
-          <span/>
+        <OpenInNew />
       </ProjectPicture>
     );
 };
