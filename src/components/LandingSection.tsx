@@ -43,6 +43,8 @@ const LandingSection = () => {
                 <br/>        - Mr. P himself
             </motion.div>
 
+            <div className='absolute bottom-0 w-full text-lg text-center text-white bg-black tablet:hidden'>VISIT ON DESKTOP FOR RICHER EXPERIENCE</div>
+
             
         </div>
 
