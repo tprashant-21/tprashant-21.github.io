@@ -39,7 +39,7 @@ const ProjectPicture = ({gradient, children, id}: ProjectPictureProps) => {
 
 export const WebDevPicture = ({id}: CardProps) => {
     return (
-      <ProjectPicture id={id} gradient="from-[#f7f0ff] to-[#a78afe]">
+      <ProjectPicture id={id} gradient="from-[#4F9292] to-[#89BFBF]">
           
       <img
         className="absolute left-[10%] -rotate-2 top-[4%] w-[50%] rounded-xl shadow-lg transition-transform"
@@ -56,7 +56,7 @@ export const WebDevPicture = ({id}: CardProps) => {
 
       <img
         className=
-          "absolute left-[36%] top-[36%] rotate-3 w-[51%] rounded-xl shadow-xl transition-transform"
+          "absolute bg-[#f3a5d0] left-[36%] top-[36%] rotate-3 w-[51%] rounded-xl shadow-xl transition-transform"
         src={glicee}
       />
 
@@ -68,7 +68,7 @@ export const WebDevPicture = ({id}: CardProps) => {
 
 export const VRDevPicture = ({id}: CardProps) => {
     return (
-      <ProjectPicture id={id} gradient="from-[#2E3192] to-[#1BFFFF]">
+      <ProjectPicture id={id} gradient="from-[#7383A2] to-[#B4C1D4]">
           
 
       <img
@@ -100,7 +100,7 @@ export const VRDevPicture = ({id}: CardProps) => {
 
 export const MotionGraphicsPicture = ({id}: CardProps) => {
     return (
-      <ProjectPicture id={id} gradient="from-[#f7f0ff] to-[#a78afe]">
+      <ProjectPicture id={id} gradient="from-[#CB6C71] to-[#E9A9AC]">
           <img
           className="absolute left-[15%] top-[25%] w-[53%] rounded-xl shadow-lg transition-transform"
             src={buddha}
@@ -113,7 +113,7 @@ export const MotionGraphicsPicture = ({id}: CardProps) => {
 
 export const GraphicDesignPicture = ({id}: CardProps) => {
     return (
-      <ProjectPicture id={id} gradient="from-[#2E3192] to-[#1BFFFF]">
+      <ProjectPicture id={id} gradient="from-[#A59C94] to-[#DAD4CD]">
         <OpenInNew />
       </ProjectPicture>
     );
@@ -121,7 +121,7 @@ export const GraphicDesignPicture = ({id}: CardProps) => {
 
 export const ContentCreationPicture = ({id}: CardProps) => {
     return (
-      <ProjectPicture id={id} gradient="from-[#f7f0ff] to-[#a78afe]">
+      <ProjectPicture id={id} gradient="from-[#B4838F] to-[#DAB1B7]">
         <OpenInNew />
       </ProjectPicture>
     );
@@ -129,15 +129,17 @@ export const ContentCreationPicture = ({id}: CardProps) => {
 
 export const AnimationPicture = ({id}: CardProps) => {
     return (
-      <ProjectPicture id={id} gradient="from-[#2E3192] to-[#1BFFFF]">
+      <ProjectPicture id={id} gradient="from-[#61817C] to-[#A7C3BB]">
         <OpenInNew />
       </ProjectPicture>
     );
 };
 
+
+
 export const RoboticsPicture = ({id}: CardProps) => {
     return (
-      <ProjectPicture id={id} gradient="from-[#f7f0ff] to-[#a78afe]">
+      <ProjectPicture id={id} gradient="from-[#6B6B6B]  to-[#B9B9B9]">
         <OpenInNew />
       </ProjectPicture>
     );

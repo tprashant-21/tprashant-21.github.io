@@ -10,3 +10,13 @@ export const useFeatureStore = create<FeatureStore>((set) => ({
     setInViewFeature: (feature: string | null) => set({inViewFeature: feature}),
 }));
 
+type CursorStore = {
+    cursorVariant: string;
+    setCursorVariant: (cursor: string) => void;
+};
+
+export const useCursorStore = create<CursorStore>((set) => ({
+    cursorVariant: "default",
+    setCursorVariant: (cursor: string) => set({cursorVariant: cursor}),
+}));
+
