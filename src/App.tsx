@@ -1,25 +1,38 @@
-//components 
+import {Route, Routes } from "react-router-dom"
 import Cursor from "./components/Cursor"
-import LandingSec from "./sections/LandingSec"
-import Projects from "./sections/Projects"
+
+//page components 
+import Home from "./pages/Home"
+import WebDev from "./pages/WebDev"
+import VRdev from "./pages/VRdev"
+import MotionGraphics from "./pages/MotionGraphics" 
+import GraphicDesign from "./pages/GraphicDesign"
+import ContentCreation from "./pages/ContentCreation" 
+import Animation from "./pages/Animation"
+import Robotics from "./pages/Robotics.tsx"
 
 
 function App() {
 
   
   return (
-    <div className="container mx-auto max-w-[2000px]">
 
-      <Cursor />
-      <LandingSec   /> 
-      <Projects />
-      <div className="h-screen text-8xl bg-[#a28a57]">
+    <>
 
-      
-     
-      </div>
+    <Cursor />
 
-    </div>
+    <Routes>
+      <Route path="/" element={<Home/>} />  
+      <Route path="/webdev" element={<WebDev/>} />
+      <Route path="/vrdev" element={<VRdev/>} />
+      <Route path="/motiongraphics" element={<MotionGraphics/>} />
+      <Route path="/graphicdesign" element={<GraphicDesign/>} />
+      <Route path="/contentcreation" element={<ContentCreation/>} />
+      <Route path="/animation" element={<Animation/>} />
+      <Route path="/robotics" element={<Robotics/>} />
+    </Routes>  
+    
+    </>
   )
 }
 

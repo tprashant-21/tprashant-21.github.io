@@ -4,6 +4,7 @@ import {FaCircle} from 'react-icons/fa'
 import {BsSendFill} from 'react-icons/bs'
 import { useCursorStore } from "../store"
 
+
 const Cursor = () => {
 
     const cursorVariant = useCursorStore(state => state.cursorVariant);
@@ -29,14 +30,7 @@ const Cursor = () => {
           }
       }, []);
     
-      // const variants: any = {
-      //     default: {
-              
-      //     },
-      //     text: {
-              
-      //     }
-      // }
+
 
 
   return (
@@ -48,7 +42,11 @@ const Cursor = () => {
           y: mousePosition.y - 16}}
         transition={{duration: 0 }}
         >
-          {cursorVariant === "default" ? <FaCircle className="text-[32px] text-gray-[#DDDBDB]"/> :<BsSendFill className="text-[80px] text-gray-100" /> }
+          {cursorVariant === "default" ?
+            <FaCircle className="text-[32px] text-gray-[#DDDBDB]"/> : cursorVariant === "text" ?
+            <BsSendFill className="text-[80px] text-gray-100" /> :
+            null}
+            
             
             
     </motion.div>

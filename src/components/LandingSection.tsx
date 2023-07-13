@@ -65,25 +65,33 @@ const LandingSection = () => {
                 <br/>        -<span className='group-hover:underline decoration-2 underline-offset-4 decoration-dashed'>Mr. P himself</span> 
             </motion.div>
 
-            <motion.div 
-            onMouseEnter={()=>setCursor("text")} onMouseLeave={()=>setCursor("default")}
-            animate={{rotate: 360 }}
-            transition={{ ease: "linear", duration: 8, repeat: Infinity }}
-            className=" h-[210px]  rounded-full font-bold w-[210px] font-poppins absolute bottom-[150px] left-[680px] text-black'">
-              <div className='relative'>
-                <svg viewBox="0 0 200 200">
-                  <path id="textPath" d="M 85,0 A 85,85 0 0 1 -85,0 A 85,85 0 0 1 85,0" transform="translate(100,100)" fill="none" stroke-width="0"></path>
-                  <g font-size="22px">
-                    <text text-anchor="start">
-                      <textPath xlinkHref="#textPath" startOffset="0%"> --- HIRE ME  ---  HIRE ME  ---  HIRE ME --- HIRE ME </textPath>
-                    </text>
-                  </g>
-                </svg>
+              {/* hire me button */}
+              <motion.div
+                whileHover={{ scale: 1.08 }}
+                initial={{ opacity: 0}}
+                animate={{ opacity: 1, transition: { delay: 2.5}}}
+                className="absolute bottom-[150px] left-[680px]" >
+                <motion.div 
+                onMouseEnter={()=>setCursor("text")} onMouseLeave={()=>setCursor("default")}
+                animate={{rotate: 360 }}
+                transition={{ ease: "linear", duration: 8, repeat: Infinity }}
+                className=" h-[210px]  rounded-full font-bold w-[210px] font-poppins  text-black'">
+                  <div className='relative'>
+                    <svg viewBox="0 0 200 200">
+                      <path id="textPath" d="M 85,0 A 85,85 0 0 1 -85,0 A 85,85 0 0 1 85,0" transform="translate(100,100)" fill="none" stroke-width="0"></path>
+                      <g font-size="22px">
+                        <text text-anchor="start">
+                          <textPath xlinkHref="#textPath" startOffset="0%"> --- HIRE ME  ---  HIRE ME  ---  HIRE ME --- HIRE ME </textPath>
+                        </text>
+                      </g>
+                    </svg>
 
-                {cursorVariant === "default"? <BsSendFill className="text-[60px] absolute left-[35%] top-[35%] text-gray-100" /> : null }
+                    {cursorVariant === "default"? <BsSendFill className="text-[60px] absolute left-[35%] top-[35%] text-gray-100" /> : null }
 
-              </div>
-            </motion.div>  
+                  </div>
+                </motion.div>  
+
+              </motion.div>
 
             <div className='absolute bottom-0 w-full text-lg text-center text-white bg-black tablet:hidden'>VISIT ON DESKTOP FOR RICHER EXPERIENCE</div>
 
