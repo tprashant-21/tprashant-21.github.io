@@ -31,6 +31,16 @@ export const WebProjects = [
     },
     {
         id: 4,
+        title: "effective-task-planner",
+        description: "Not your average task-planner! The effective-task-planner app digitalises the task planning proces that is the most saught after among productive humans of today's world. I used to print the paper with template and use it. But here's my attempt to turn it into an app, and increase productivity in all of us. IT REALLYY HELPS Y'ALL!",
+        detail :"Through this project, I expanded my skill set and gained the ability to develop a comprehensive React application with local state management system. This experience allowed me to create an aesthetically pleasing and highly functional solution to my problem.",
+        tech: ["REACT", "TypeScript", "TailwindCSS", "React DnD"],
+        github: "https://github.com/tprashant-21/effective-task-planner",
+        live: "https://effective-task-planner.vercel.app/",
+        image: "src/assets/images/glicee.png"
+    },
+    {
+        id: 5,
         title: "Disney Plus Clone",
         description: "I did this project to sharpen my frontend skills. Through this project, I learned more about the power of Tailwind CSS. TheMovieDB API was used for content.",
         detail: "I also used TypeScript to improve my TS skills too. All in all, the site came out really nice and accurately responsive too. ", 
@@ -40,7 +50,7 @@ export const WebProjects = [
         image: "src/assets/images/glicee.png"
     },
     {
-        id: 5,
+        id: 6,
         title: "Portfolio v1",
         description: "My first portfolio site. I am still proud of this project. I made this site after self-learning web development. Like a typical portfolio, it has all its elements and a beautiful style.",
         detail: " I think it caught the attention of many people, but I wanted more. I wanted smoother animation and a completely new feel to my portfolio. That’s why portfolio v2.",
