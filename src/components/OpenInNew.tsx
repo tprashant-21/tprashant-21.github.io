@@ -1,9 +1,9 @@
 import {MdOutlineOpenInNew} from "react-icons/md"
 import {motion} from "framer-motion"
-import { useCursorStore } from "../store"
+
 
 const OpenInNew = () => {
-  const setCursor = useCursorStore(state => state.setCursorVariant);
+
 
 
 
