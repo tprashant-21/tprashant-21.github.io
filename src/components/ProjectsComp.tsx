@@ -10,11 +10,11 @@ type props = {
 const ProjectsComp = ({project, i}: props) => {
   return (
     <div key={i} className="border-2 mt-[50px] border-gray-200 rounded-2xl border-dashed w-[90%] mx-auto">
-        <div className="flex flex-col-reverse items-center justify-center p-10 gap-y-8 laptop:flex-row">
+        <div className="flex flex-col-reverse items-center justify-center py-10 px-14 gap-y-8 laptop:flex-row">
 
-          <div className="flex items-center justify-center flex-1 pl-5 tablet:pl-9 normal:pl-12"> 
+          <div className="flex items-center justify-center flex-1 "> 
           <p>
-            <span className="text-xl font-bold normal:text-2xl font-poppins">{project.title}</span> 
+            <span className="text-xl font-bold normal:text-3xl font-poppins">{project.title}</span> 
             <br/><br/> {project.description} <br/><br/> {project.detail} <br/><br/>
   
             {project.tech.map((tech, i) => 
@@ -28,13 +28,13 @@ const ProjectsComp = ({project, i}: props) => {
 
             <a href={project.github} target="_blank"><div className="flex flex-col items-center justify-center gap-2 cursor-pointer hover:scale-105">
               <FaFileCode className="text-2xl text-gray-300" />
-              <p className="text-xs text-center">Source Code</p>
+              <p className="text-xs text-center">Source</p>
             </div>
             </a>
 
             <a href={project.live} target="_blank"><div className="flex flex-col items-center justify-center gap-2 cursor-pointer hover:scale-105">
               <FaFileImage className="text-2xl text-gray-300" />
-              <p className="text-xs text-center">Live <br/> Demo </p>
+              <p className="text-xs text-center">Demo </p>
             </div>
             </a>
 

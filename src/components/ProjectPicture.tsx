@@ -61,7 +61,7 @@ export const WebDevPicture = ({id}: CardProps) => {
         src={glicee}
       />
 
-      <Link to="/webdev">
+      <Link target="_blank" to="/webdev">
         <OpenInNew /> 
       </Link>
         
@@ -96,7 +96,7 @@ export const VRDevPicture = ({id}: CardProps) => {
         src={basketbrawl}
       />
 
-      <Link to="/VRdev">
+      <Link target="_blank" to="/VRdev">
         <OpenInNew /> 
       </Link>
 
@@ -112,7 +112,7 @@ export const MotionGraphicsPicture = ({id}: CardProps) => {
             src={buddha}
           />
 
-      <Link to="/motiongraphics">
+      <Link target="_blank" to="/motiongraphics">
         <OpenInNew /> 
       </Link>
       </ProjectPicture>
@@ -122,7 +122,7 @@ export const MotionGraphicsPicture = ({id}: CardProps) => {
 export const GraphicDesignPicture = ({id}: CardProps) => {
     return (
       <ProjectPicture id={id} gradient="from-[#A59C94] to-[#DAD4CD]">
-        <Link to="/graphicdesign">
+        <Link target="_blank" to="/graphicdesign">
         <OpenInNew /> 
       </Link>
       </ProjectPicture>
@@ -132,7 +132,7 @@ export const GraphicDesignPicture = ({id}: CardProps) => {
 export const ContentCreationPicture = ({id}: CardProps) => {
     return (
       <ProjectPicture id={id} gradient="from-[#B4838F] to-[#DAB1B7]">
-        <Link to="/contentcreation">
+        <Link target="_blank" to="/contentcreation">
         <OpenInNew /> 
       </Link>
       </ProjectPicture>
@@ -142,7 +142,7 @@ export const ContentCreationPicture = ({id}: CardProps) => {
 export const AnimationPicture = ({id}: CardProps) => {
     return (
       <ProjectPicture id={id} gradient="from-[#61817C] to-[#A7C3BB]">
-        <Link to="/animation">
+        <Link target="_blank" to="/animation">
         <OpenInNew /> 
       </Link>
       </ProjectPicture>
@@ -154,7 +154,7 @@ export const AnimationPicture = ({id}: CardProps) => {
 export const RoboticsPicture = ({id}: CardProps) => {
     return (
       <ProjectPicture id={id} gradient="from-[#6B6B6B]  to-[#B9B9B9]">
-        <Link to="/robotics">
+        <Link target="_blank" to="/robotics">
         <OpenInNew /> 
       </Link>
       </ProjectPicture>
