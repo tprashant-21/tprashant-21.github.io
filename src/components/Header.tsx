@@ -2,9 +2,13 @@ import { motion } from "framer-motion"
 import {CiLocationOn} from 'react-icons/ci'
 import {PiGraduationCapLight} from 'react-icons/pi'
 
+import { useCursorStore } from "../store"
 
 
 const Header = () => {
+
+    const setCursor = useCursorStore(state => state.setCursorVariant);
+
 
     const variants: any = {
         hidden: { opacity: 0, translateY: -100 },
@@ -44,10 +48,10 @@ const Header = () => {
 
         <motion.div className='z-10 items-center hidden laptop:flex gap-x-6 normal:gap-x-10'
              variants={variants}>
-            <a className="cursor-pointer hover:underline">About</a>
-            <a className="cursor-pointer hover:underline">Projects</a>
-            <a className="cursor-pointer hover:underline">CV</a>
-            <a className="cursor-pointer hover:underline">Contact</a>
+            <a onMouseEnter={()=>setCursor("hover")} onMouseLeave={()=>setCursor("default")} className="cursor-pointer hover:underline">About</a>
+            <a onMouseEnter={()=>setCursor("hover")} onMouseLeave={()=>setCursor("default")} className="cursor-pointer hover:underline">Projects</a>
+            <a onMouseEnter={()=>setCursor("hover")} onMouseLeave={()=>setCursor("default")} className="cursor-pointer hover:underline">CV</a>
+            <a onMouseEnter={()=>setCursor("hover")} onMouseLeave={()=>setCursor("default")} className="cursor-pointer hover:underline">Contact</a>
         </motion.div>
         
     </motion.div>

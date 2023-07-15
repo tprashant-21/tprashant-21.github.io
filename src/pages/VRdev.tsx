@@ -3,11 +3,13 @@ import ProjectHeader from "../components/ProjectHeader"
 import ProjectsComp from "../components/ProjectsComp"
 
 import { VRProjects } from "../lists/VRProjects"
+import { TabTitle } from "../Utils/GeneralFunc"
 
 
 
 
 const VRDev = () => {
+  TabTitle('VR Dev - Prashant');
   return (
 
     <div className="container mx-auto max-w-[2000px]">

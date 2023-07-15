@@ -4,10 +4,13 @@ import ProjectsComp from "../components/ProjectsComp"
 
 import { MotionGraphicsProjects } from "../lists/MotionGraphicsProjects"
 
-
+import { TabTitle } from "../Utils/GeneralFunc"
 
 
 const MotionGraphicsDev = () => {
+
+  TabTitle('Motion Graphics - Prashant');
+
   return (
 
     <div className="container mx-auto max-w-[2000px]">

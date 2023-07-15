@@ -1,12 +1,10 @@
 import { useFeatureStore } from "../store";
 
-import motiontracker from "../assets/images/motiontracker.png"
-import glicee from "../assets/images/glicee.png"
-import covid from "../assets/images/covid.png"
+
 
 import vrlab from "../assets/images/vrlab.png"
 import vrbadge from "../assets/images/vrbadge.png"
-import basketbrawl from "../assets/images/basketbrawl.png"
+
 import vrgallery from "../assets/images/vrgallery.png"
 
 import buddha from "../assets/images/buddha.gif"
@@ -44,13 +42,13 @@ export const WebDevPicture = ({id}: CardProps) => {
           
       <img
         className="absolute left-[10%] -rotate-2 top-[4%] w-[50%] rounded-xl shadow-lg transition-transform"
-        src={motiontracker}
+        src="src/assets/images/web-motiontracker.webp"
       />
       
     
       <img
       className="absolute left-[11%] top-[69%] w-[49%] rotate-1 rounded-xl shadow-lg transition-transform"
-        src={covid}
+        src="src/assets/images/web-covid.webp"
       />
 
       
@@ -58,7 +56,7 @@ export const WebDevPicture = ({id}: CardProps) => {
       <img
         className=
           "absolute bg-[#f3a5d0] left-[36%] top-[36%] rotate-3 w-[51%] rounded-xl shadow-xl transition-transform"
-        src={glicee}
+        src="src/assets/images/web-glicee.webp"
       />
 
       <Link target="_blank" to="/webdev">
@@ -77,23 +75,23 @@ export const VRDevPicture = ({id}: CardProps) => {
       <img
         className=
           "absolute left-[25%] top-[22%] w-[43%] rounded-xl shadow-3xl transition-transform"
-        src={vrlab}
+        src="src/assets/images/vrlab.webp"
       />
 
       <img
-        className="absolute left-[7%] top-[6%] w-[27%] rounded-xl transition-transform"
-        src={vrbadge}
+        className="absolute scale-90 bg-gray-100 left-[7%] top-[6%] w-[27%] rounded-xl transition-transform"
+        src="src/assets/images/vrbadge.webp"
       />  
 
     <img
-      className="absolute left-[52%] top-[8%] w-[36%] rotate-2 rounded-xl shadow-lg transition-transform"
-        src={vrgallery}
+      className="absolute left-[52%] top-[12%] w-[36%] rotate-2 rounded-xl shadow-lg transition-transform"
+        src="src/assets/images/vr-gallery.webp"
       />
       
 
       <img
-      className="absolute left-[11%] top-[65%] w-[33%] -rotate-3 rounded-xl shadow-lg transition-transform"
-        src={basketbrawl}
+      className="absolute left-[12%] scale-125 top-[71%] w-[33%] -rotate-1 rounded-xl shadow-lg transition-transform"
+        src="src/assets/images/vr-basketbrawl.webp"
       />
 
       <Link target="_blank" to="/VRdev">

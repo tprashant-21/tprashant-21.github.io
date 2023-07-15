@@ -1,16 +1,21 @@
 
+import ContactSec from "../sections/ContactSec"
 import LandingSec from "../sections/LandingSec"
 import Projects from "../sections/Projects"
 
+import { TabTitle } from "../Utils/GeneralFunc"
+
 const Home = () => {
+
+  TabTitle(`Prashant's Portfolio`);
+
   return (
-    <div className="container mx-auto max-w-[2000px]">
+
+    <div className="container select-none mx-auto max-w-[2000px]">
 
       <LandingSec   /> 
       <Projects />
-      <div className="h-screen text-8xl bg-[#a28a57]">
-     
-      </div>
+      <ContactSec />
 
     </div>
   )

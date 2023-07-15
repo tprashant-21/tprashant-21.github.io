@@ -1,3 +1,4 @@
+import { TabTitle } from "../Utils/GeneralFunc"
 import ProjectHeader from "../components/ProjectHeader"
 
 import ProjectsComp from "../components/ProjectsComp"
@@ -9,7 +10,10 @@ import { WebProjects } from "../lists/WebProjects"
 
 
 const WebDev = () => {
+  TabTitle('Web Dev - Prashant');
+
   return (
+    
 
     <div className="container mx-auto max-w-[2000px]">
       <ProjectHeader />

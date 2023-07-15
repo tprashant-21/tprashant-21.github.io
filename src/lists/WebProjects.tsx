@@ -7,7 +7,7 @@ export const WebProjects = [
         tech: ["REACT", "TypeScript", "Zustand", "Tailwind", "React Router", "OpenCV"],
         github: "https://github.com/PiPhysics/MotionTrackerLab",
         live: "https://piphysics.github.io/MotionTrackerLab/",
-        image: "src/assets/images/motiontracker.png"
+        image: "src/assets/images/web-motiontracker.webp"
     },
     {
         id: 2,
@@ -17,27 +17,27 @@ export const WebProjects = [
         tech: ["AlpineJS", "TailwindCSS", "HTML", "CSS", "Zola"],   
         github: "https://github.com/SpringfieldCollege-MPCS/cisc288-final-website-giclee-printing-framing",
         live: "https://springfieldcollege-mpcs.github.io/cisc288-final-website-giclee-printing-framing/",
-        image: "src/assets/images/glicee.png"
+        image: "src/assets/images/web-glicee.webp"
     },
     {
         id: 3,
-        title: "RememberCOVIDfacts",
-        description: "A memory webgame designed and built at HackHolyoke 2021 to make people re-remember COVID infos. Me and my talented friend, Nadia Salett (Arts and Design major), partnered up for this crime. Her expertise in Adobe Illustrator and design was a major help.",
-        detail: "We did not win any awards but it was a fun learning experience.",
-        tech: ["HTML", "CSS", "JavaScript", "Adobe Illustrator"],
-        github: "https://github.com/tprashant-21/rememberCOVIDfacts",
-        live: "https://tprashant-21.github.io/rememberCOVIDfacts/",
-        image: "src/assets/images/covid.png"
-    },
-    {
-        id: 4,
         title: "effective-task-planner",
         description: "Not your average task-planner! The effective-task-planner app digitalises the task planning proces that is the most saught after among productive humans of today's world. I used to print the paper with template and use it. But here's my attempt to turn it into an app, and increase productivity in all of us. IT REALLYY HELPS Y'ALL!",
         detail :"Through this project, I expanded my skill set and gained the ability to develop a comprehensive React application with local state management system. This experience allowed me to create an aesthetically pleasing and highly functional solution to my problem.",
         tech: ["REACT", "TypeScript", "TailwindCSS", "React DnD"],
         github: "https://github.com/tprashant-21/effective-task-planner",
         live: "https://effective-task-planner.vercel.app/",
-        image: "src/assets/images/glicee.png"
+        image: "src/assets/images/web-effective-task-planner.webp"
+    },
+    {
+        id: 4,
+        title: "RememberCOVIDfacts",
+        description: "A memory webgame designed and built at HackHolyoke 2021 to make people re-remember COVID infos. Me and my talented friend, Nadia Salett (Arts and Design major), partnered up for this crime. Her expertise in Adobe Illustrator and design was a major help.",
+        detail: "We did not win any awards but it was a fun learning experience.",
+        tech: ["HTML", "CSS", "JavaScript", "Adobe Illustrator"],
+        github: "https://github.com/tprashant-21/rememberCOVIDfacts",
+        live: "https://tprashant-21.github.io/rememberCOVIDfacts/",
+        image: "src/assets/images/web-covid.webp"
     },
     {
         id: 5,
@@ -46,8 +46,8 @@ export const WebProjects = [
         detail: "I also used TypeScript to improve my TS skills too. All in all, the site came out really nice and accurately responsive too. ", 
         tech: ["REACT", "TypeScript", "TailwindCSS", "TheMovieDB API"],
         github: "https://github.com/tprashant-21/disney-plus-clone",
-        live: "disney-plus-clone-react-tprashant-21.vercel.app",
-        image: "src/assets/images/glicee.png"
+        live: "https://disney-plus-clone-react-tprashant-21.vercel.app",
+        image: "src/assets/images/web-disney-clone.webp"
     },
     {
         id: 6,
@@ -57,7 +57,7 @@ export const WebProjects = [
         tech: ["HTML", "CSS", "JavaScript"],
         github: "https://github.com/tprashant-21/tprashant-21.github.io",
         live: "https://prashanttimalsina.com",
-        image: "src/assets/images/glicee.png"
+        image: "src/assets/images/web-portfolio-1.webp"
     },
     ];
 

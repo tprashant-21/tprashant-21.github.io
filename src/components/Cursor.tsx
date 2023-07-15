@@ -44,8 +44,8 @@ const Cursor = () => {
         >
           {cursorVariant === "default" ?
             <FaCircle className="text-[32px] text-gray-[#DDDBDB]"/> : cursorVariant === "text" ?
-            <BsSendFill className="text-[80px] text-gray-100" /> :
-            null}
+            <BsSendFill className="text-[80px] text-gray-100" /> : cursorVariant === "hover" ?
+             <motion.div animate={{scale: 1.8, opacity: 0.4}}><FaCircle className="text-[32px] text-gray-[#DDDBDB]"/></motion.div> :null}
             
             
             

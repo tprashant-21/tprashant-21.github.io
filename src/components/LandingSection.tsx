@@ -1,4 +1,4 @@
-import landingImage from '../assets/images/landing-image.png';
+
 import { motion } from 'framer-motion';
 import {useCursorStore} from "../store"
 import { useState } from 'react';
@@ -51,7 +51,7 @@ const LandingSection = () => {
                 duration: 0.7
               }}}
             // animate={{ opacity: 1, y: 0, transition: { delay: 1.2}}}
-            className=' object-contain h-[600px] tablet:h-[800px] normal:h-[900px]' src={landingImage} alt="landing-image">
+            className=' object-contain h-[600px] tablet:h-[800px] normal:h-[900px]' src="src/assets/images/landing-image.webp" alt="landing-image">
             </motion.img>
             
 
