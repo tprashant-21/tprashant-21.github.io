@@ -6,18 +6,21 @@ import { GraphicDesignProjects } from "../lists/GraphicDesignProjects"
 
 import { TabTitle } from "../Utils/GeneralFunc"
 
+import { motion } from "framer-motion"
+
 
 const GraphicDesignDev = () => {
 
   TabTitle('Graphic Design - Prashant');
   return (
 
-    <div className="container mx-auto max-w-[2000px]">
-      <ProjectHeader />
-
-      <div className="mt-[100px] tablet:mt-[50px] text-5xl font-poppins font-extrabold text-center">
-        Graphic Design <span className="text-2xl bg-purple rounded-xl font-handwriting">Projects</span>
-      </div>
+    <motion.div 
+      initial={{opacity: 0}}
+      animate={{opacity: 1, transition: {delay: 0.5, duration: 0.5, ease: "easeInOut"}}}
+      className="container mx-auto max-w-[2000px]">
+      
+      <ProjectHeader title={"Graphic Design"} prev={"VR Dev & 3D"} linkPrev="/vrdev" next={"Motion Graphics"} linkNext={"/motiongraphics"}/>
+      
 
       {GraphicDesignProjects.map((project,i) =>
       <ProjectsComp project={project} i={i} />
@@ -28,7 +31,7 @@ const GraphicDesignDev = () => {
          For more other projects, revisit my <a href="https://github.com/tprashant-21" target="_blank" className="text-4xl underline font-poppins">profile</a> </div>
       </div>
 
-    </div>
+    </motion.div>
 
   
   )

@@ -8,7 +8,8 @@ const Robotics = () => {
 
   return (
     <>
-    <ProjectHeader />
+      <ProjectHeader title={"Robotics & others"} prev={"Animation"} linkPrev="/animation" next={"Web Dev"} linkNext={"/webdev"}/>
+
     </>
   )
 }

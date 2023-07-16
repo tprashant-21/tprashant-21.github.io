@@ -5,7 +5,7 @@ import ProjectsComp from "../components/ProjectsComp"
 import { ContentCreationProjects } from "../lists/ContentCreationProjects"
 
 import { TabTitle } from "../Utils/GeneralFunc"
-
+import { motion } from "framer-motion"
 
 const ContentCreationDev = () => {
   
@@ -13,23 +13,24 @@ const ContentCreationDev = () => {
 
   return (
 
-    <div className="container mx-auto max-w-[2000px]">
-      <ProjectHeader />
-
-      <div className="mt-[100px] tablet:mt-[50px] text-5xl font-poppins font-extrabold text-center">
-        Content Creation <span className="text-2xl bg-purple rounded-xl font-handwriting">Projects</span>
-      </div>
+    <motion.div 
+       initial={{opacity: 0}}
+       animate={{opacity: 1, transition: {delay: 0.5, duration: 0.5, ease: "easeInOut"}}}
+       className="container mx-auto max-w-[2000px]">
+      
+      <ProjectHeader title={"Content Creation"} prev={"Motion Graphics"} linkPrev="/motiongraphics" next={"Animation"} linkNext={"/animation"}/>
+      
 
       {ContentCreationProjects.map((project,i) =>
       <ProjectsComp project={project} i={i} />
       )}
 
       <div>
-        <div className="m-[100px] tablet:m-[50px] text-5xl font-handwriting font-extrabold text-center">
+        <div className="m-[50px] text-2xl tablet:text-5xl font-handwriting font-extrabold text-center">
          For more other projects, revisit my <a href="https://github.com/tprashant-21" target="_blank" className="text-4xl underline font-poppins">profile</a> </div>
       </div>
 
-    </div>
+    </motion.div>
 
   
   )

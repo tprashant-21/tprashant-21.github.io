@@ -1,42 +1,9 @@
 import ProjectList from "../components/ProjectList"
 import { useRef } from "react"
 import hover3d from "../Utils/HoverCard"
+import { projectList } from "../lists/ProjectList"
 
-import { RoboticsPicture, AnimationPicture, ContentCreationPicture, GraphicDesignPicture, MotionGraphicsPicture, VRDevPicture, WebDevPicture } from "../components/ProjectPicture"
 
-const projectList = [
-    {
-        title: "Web Dev",
-        id: 1,
-        card: WebDevPicture
-    },
-    {
-        title: "VR Dev & 3D",
-        id: 2,
-        card: VRDevPicture
-    },{
-        title: "Motion Graphics",
-        id: 3,
-        card: MotionGraphicsPicture
-    },{
-        title: "Graphic Design",
-        id: 4,
-        card: GraphicDesignPicture
-    },{
-        title: "Content Creation",
-        id: 5,
-        card: ContentCreationPicture
-    },{
-        title: "Animation",
-        id: 6,
-        card: AnimationPicture
-    },{
-        title: "Robotics & others",
-        id: 7,
-        card: RoboticsPicture
-    },
-
-]
 
 const Projects = () => {
 

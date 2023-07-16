@@ -11,6 +11,8 @@ import ContentCreation from "./pages/ContentCreation"
 import Animation from "./pages/Animation"
 import Robotics from "./pages/Robotics.tsx"
 
+import ScrollToTop from "./Utils/ScrollToTop"
+
 
 function App() {
 
@@ -20,6 +22,9 @@ function App() {
     <>
 
     <Cursor />
+
+    <ScrollToTop />
+
 
     <Routes>
       <Route path="/" element={<Home/>} />  

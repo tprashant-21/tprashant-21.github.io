@@ -6,7 +6,10 @@ import {BsSendFill} from 'react-icons/bs'
 
 
 
+
 const LandingSection = () => {
+
+
 
   const [hovered, setHovered] = useState(false);
   const setCursor = useCursorStore(state => state.setCursorVariant);
@@ -23,6 +26,7 @@ const LandingSection = () => {
 
   return (
     <div className="relative flex items-end justify-center min-h-screen">
+      
         <motion.p 
         whileHover={{ scale: 1.02 }}
         initial={{ opacity: 0 }}
@@ -34,10 +38,12 @@ const LandingSection = () => {
         className={`z-10 text-[72px] tablet:text-[150px] laptop:text-[200px] normal:text-[262px] tracking-[-2px] tablet:tracking-[-10px]`}>{hovered? "DESIGNER" : "ENGINEER"}</span>
         </motion.p>
         <div className= "relative z-20">
-          
+
             <motion.img 
-            
+
             initial={{opacity: 0, rotate: 10, y: -1200}}
+
+
             whileHover={{ scale: 1.02 }}
             
             animate={{
@@ -53,6 +59,7 @@ const LandingSection = () => {
             // animate={{ opacity: 1, y: 0, transition: { delay: 1.2}}}
             className=' object-contain h-[600px] tablet:h-[800px] normal:h-[900px]' src="src/assets/images/landing-image.webp" alt="landing-image">
             </motion.img>
+
             
 
 
@@ -98,8 +105,9 @@ const LandingSection = () => {
             
         </div>
 
-
+      
     </div>
+
   )
 }
 
