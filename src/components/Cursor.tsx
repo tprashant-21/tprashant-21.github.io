@@ -43,8 +43,8 @@ const Cursor = () => {
         transition={{duration: 0 }}
         >
           {cursorVariant === "default" ?
-            <FaCircle className="text-[32px] text-gray-[#DDDBDB]"/> : cursorVariant === "text" ?
-            <BsSendFill className="text-[80px] text-gray-100" /> : cursorVariant === "hover" ?
+            <FaCircle className="text-[32px] text-white"/> : cursorVariant === "text" ?
+            <BsSendFill className="text-[80px] text-white" /> : cursorVariant === "hover" ?
              <motion.div animate={{scale: 1.8, opacity: 0.4}}><FaCircle className="text-[32px] text-gray-[#DDDBDB]"/></motion.div> :null}
             
             
