@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-export default function Hover3d(ref, { x = 0, y = 0, z = 0 }) {
+export default function Hover3d(ref, { x = 0, y = 0, z = 0 }: { x: number; y: number; z: number; }) {
   const [coords, setCoords] = useState({ x: 0, y: 0 });
   const [isHovering, setIsHovering] = useState(false);
 
@@ -43,7 +43,7 @@ export default function Hover3d(ref, { x = 0, y = 0, z = 0 }) {
   const zTransform = isHovering ? z : 0;
 
   const transform = `perspective(1000px) rotateX(${yTransform}deg) rotateY(${-xTransform}deg) translateZ(${zTransform}px)`;
-  const transition = isHovering ? "none" : "all 1s ease";
+  const transition = isHovering ? "all .3s ease" : "all .6s ease";
 
   return { transform, transition };
 }
