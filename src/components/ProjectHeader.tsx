@@ -51,6 +51,7 @@ const ProjectHeader = ({title, prev, linkNext, linkPrev, next}: props) => {
             
         </div>
 
+        {/* newly added  */}
         <div className="mt-[100px] flex items-end justify-around tablet:mt-[50px]  font-poppins font-extrabold text-center">
             <Link to={linkPrev}> <div onMouseEnter={()=>setCursor("hover")} onMouseLeave={()=>setCursor("default")} className="hidden text-3xl laptop:block">
                 <HiArrowLeft className="inline-block" /> {prev} 
