@@ -1,7 +1,7 @@
 import { motion } from "framer-motion"
 import {CiLocationOn} from 'react-icons/ci'
 import {PiGraduationCapLight} from 'react-icons/pi'
-
+import {MdSimCardDownload} from "react-icons/md"
 import { useCursorStore } from "../store"
 
 
@@ -10,10 +10,11 @@ const Header = () => {
     const setCursor = useCursorStore(state => state.setCursorVariant);
 
 
-    const variants: any = {
+    const variants = {
         hidden: { opacity: 0},
         show: { opacity: 1,
-        transition: { duration: .5, delay: 1.9 } }
+        transition: { duration: .5, delay: 1.9 } 
+    }
     }
 
 
@@ -47,8 +48,7 @@ const Header = () => {
         <div className='z-10 items-center hidden laptop:flex gap-x-6 normal:gap-x-10'>
             <a onMouseEnter={()=>setCursor("hover")} onMouseLeave={()=>setCursor("default")} className="cursor-pointer hover:underline">About</a>
             <a onMouseEnter={()=>setCursor("hover")} onMouseLeave={()=>setCursor("default")} className="cursor-pointer hover:underline">Projects</a>
-            <a onMouseEnter={()=>setCursor("hover")} onMouseLeave={()=>setCursor("default")} className="cursor-pointer hover:underline">CV</a>
-            <a onMouseEnter={()=>setCursor("hover")} onMouseLeave={()=>setCursor("default")} className="cursor-pointer hover:underline">Contact</a>
+            <a onMouseEnter={()=>setCursor("hover")} onMouseLeave={()=>setCursor("default")} className="flex items-center px-2 bg-black cursor-pointer rounded-xl hover:underline">CV  <MdSimCardDownload className="inline-block ml-1 text-xl" /></a>
         </div>
         
     </motion.div>

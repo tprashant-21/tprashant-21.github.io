@@ -43,7 +43,7 @@ export default function Hover3d(ref, { x = 0, y = 0, z = 0 }: { x: number; y: nu
   const zTransform = isHovering ? z : 0;
 
   const transform = `perspective(1000px) rotateX(${yTransform}deg) rotateY(${-xTransform}deg) translateZ(${zTransform}px)`;
-  const transition = isHovering ? "all .3s ease" : "all .6s ease";
+  const transition = isHovering ? "" : "all .6s ease";
 
   return { transform, transition };
 }

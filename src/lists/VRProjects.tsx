@@ -28,7 +28,7 @@ export const VRProjects = [
         // github upload remaining
         github: "",
         live: "https://drive.google.com/file/d/1RbhRtF8FTKPDEG7iz4qolLB6p7MdYv4_/view?usp=drive_link",
-        image: "src/assets/images/covid.png"
+        image: "src/assets/images/vr-dupsum.webp"
     },
     {
         id: 4,
