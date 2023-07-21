@@ -82,9 +82,9 @@ const LandingSection = () => {
                 className=" h-[210px]  rounded-full font-bold w-[210px] font-poppins  text-black'">
                   <a className='cursor-none' href="mailto:ptimalsina@springfieldcollege.edu"><div className='relative'>
                     <svg viewBox="0 0 200 200">
-                      <path id="textPath" d="M 85,0 A 85,85 0 0 1 -85,0 A 85,85 0 0 1 85,0" transform="translate(100,100)" fill="none" stroke-width="0"></path>
-                      <g font-size="22px">
-                        <text text-anchor="start">
+                      <path id="textPath" d="M 85,0 A 85,85 0 0 1 -85,0 A 85,85 0 0 1 85,0" transform="translate(100,100)" fill="none" strokeWidth="0"></path>
+                      <g fontSize="22px">
+                        <text textAnchor="start">
                           <textPath xlinkHref="#textPath" startOffset="0%"> --- HIRE ME  ---  HIRE ME  ---  HIRE ME --- HIRE ME </textPath>
                         </text>
                       </g>
