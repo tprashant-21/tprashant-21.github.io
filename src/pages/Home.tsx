@@ -3,6 +3,7 @@ import ContactSec from "../sections/ContactSec"
 import LandingSec from "../sections/LandingSec"
 import Projects from "../sections/Projects"
 
+
 import { TabTitle } from "../Utils/GeneralFunc"
 
 const Home = () => {
@@ -16,6 +17,9 @@ const Home = () => {
       <LandingSec   /> 
       <Projects />
       <ContactSec />
+
+
+
 
     </div>
   )

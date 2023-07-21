@@ -51,7 +51,7 @@ const ProjectsComp = ({project, i}: props) => {
           </div>
 
           <div className="flex items-center justify-center flex-1 overflow-hidden rounded-xl ">
-            <img className="transition-all duration-200 ease-in shadow-lg hover:scale-105 rounded-xl" src={project.image} />
+            <a onMouseEnter={()=>setCursor("hover")} onMouseLeave={()=>setCursor("default")} target="_blank" href={project.live}><img className="transition-all duration-200 ease-in shadow-lg hover:scale-105 rounded-xl" src={project.image} /></a>
           </div>
 
          </div> 
