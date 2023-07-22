@@ -33,13 +33,13 @@ export const WebDevPicture = ({id}: CardProps) => {
           
       <img
         className="absolute left-[10%] rotate-1  top-[4%] w-[50%] rounded-xl shadow-lg transition-transform"
-        src="../../public/web-motiontracker.webp"
+        src="/web-motiontracker.webp"
       />
       
     
       <img
       className="absolute left-[10%] -rotate-1 top-[68%] w-[53%]  rounded-xl shadow-lg transition-transform"
-        src="../../public/web-disney-clone.webp"
+        src="/web-disney-clone.webp"
       />
 
       
@@ -47,7 +47,7 @@ export const WebDevPicture = ({id}: CardProps) => {
       <img
         className=
           "absolute bg-[#f3a5d0] rotate-2 left-[35%] top-[35%]  w-[54%] rounded-xl shadow-xl transition-transform"
-        src="../../public/web-glicee.webp"
+        src="/web-glicee.webp"
       />
 
       <Link target="_blank" to="/webdev">
@@ -66,23 +66,23 @@ export const VRDevPicture = ({id}: CardProps) => {
       <img
         className=
           "absolute left-[28%] top-[22%] w-[43%] rounded-xl shadow-3xl transition-transform"
-        src="../../public/vrlab.webp"
+        src="/vrlab.webp"
       />
 
       <img
         className="absolute scale-90 bg-gray-100 left-[10%] top-[6%] w-[27%] rounded-xl transition-transform"
-        src="../../public/vrbadge.webp"
+        src="/vrbadge.webp"
       />  
 
     <img
       className="absolute left-[54%] top-[12%] w-[34%] rotate-2 rounded-xl shadow-lg transition-transform"
-        src="../../public/vr-gallery.webp"
+        src="/vr-gallery.webp"
       />
       
 
       <img
       className="absolute left-[15%] scale-125  top-[71%] w-[31%] -rotate-1 rounded-xl shadow-lg transition-transform"
-        src="../../public/vr-basketbrawl.webp"
+        src="/vr-basketbrawl.webp"
       />
 
       <Link target="_blank" to="/VRdev">
@@ -99,20 +99,20 @@ export const MotionGraphicsPicture = ({id}: CardProps) => {
 
         <img
           className="absolute left-[28%] -rotate-[6deg] top-[9%] w-[42%] rounded-xl shadow-lg transition-transform"
-          src="../../public/motion-cr7.webp"
+          src="/motion-cr7.webp"
         />
         
       
         <img
         className="absolute left-[17%] top-[29%] w-[60%] rotate-2 rounded-xl shadow-lg transition-transform"
-          src="../../public/motion-labyrinth.webp"
+          src="/motion-labyrinth.webp"
         />
 
 
         <img
           className=
             "absolute bg-[#f3a5d0] -rotate-1 left-[8%] top-[50%]  w-[75%] rounded-xl shadow-xl transition-transform"
-          src="../../public/motion-im-yu.webp"
+          src="/motion-im-yu.webp"
         />
 
       <Link target="_blank" to="/motiongraphics">
@@ -128,20 +128,20 @@ export const GraphicDesignPicture = ({id}: CardProps) => {
 
         <img
           className="absolute left-[10%] -rotate-2 top-[4%] w-[50%] rounded-xl shadow-lg transition-transform"
-          src="../../public/graphic-pig.webp"
+          src="/graphic-pig.webp"
         />
         
       
         <img
         className="absolute left-[11%] top-[69%] w-[49%] rotate-1 rounded-xl shadow-lg transition-transform"
-          src="../../public/graphic-metamorphosis.webp"
+          src="/graphic-metamorphosis.webp"
         />
 
 
         <img
           className=
             "absolute bg-[#f3a5d0] left-[36%] top-[36%] rotate-3 w-[55%] rounded-xl shadow-xl transition-transform"
-          src="../../public/graphic-religion.webp"
+          src="/graphic-religion.webp"
         />
 
         <Link target="_blank" to="/graphicdesign">
@@ -157,20 +157,20 @@ export const ContentCreationPicture = ({id}: CardProps) => {
 
         <img
           className="absolute left-[46%] -rotate-1 top-[9%] w-[45%] rounded-xl shadow-lg transition-transform"
-          src="../../public/content-parade.webp"
+          src="/content-parade.webp"
         />
         
       
         <img
         className="absolute left-[8%] z-10 top-[66%] w-[50%] rotate-1 rounded-xl shadow-lg transition-transform"
-          src="../../public/content-trivia-2.webp"
+          src="/content-trivia-2.webp"
         />
 
 
         <img
           className=
             "absolute bg-[#f3a5d0] left-[12%] top-[29%] -rotate-0 w-[76%] shadow-3xl rounded-xl shadow-xl transition-transform"
-          src="../../public/content-honors.webp"
+          src="/content-honors.webp"
         />
 
         <Link target="_blank" to="/contentcreation">
@@ -186,14 +186,14 @@ export const AnimationPicture = ({id}: CardProps) => {
 
         <img
         className="absolute left-[19%] top-[11%] w-[68%] rounded-xl shadow-lg transition-transform"
-          src="../../public/animation-3d.webp"
+          src="/animation-3d.webp"
         />
 
 
         <img
           className=
             "absolute bg-[#f3a5d0] left-[9%] top-[48%] w-[70%] rounded-xl shadow-xl transition-transform"
-          src="../../public/animation-2d.webp"
+          src="/animation-2d.webp"
         />
 
         <Link target="_blank" to="/animation">

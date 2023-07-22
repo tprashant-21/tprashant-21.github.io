@@ -54,7 +54,7 @@ const LandingSection = () => {
                 duration: .35
               }}}
 
-            className=' object-contain h-[600px] tablet:h-[800px] normal:h-[900px]' src="../../public/landing-image.webp" alt="landing-image">
+            className=' object-contain h-[600px] tablet:h-[800px] normal:h-[900px]' src="/landing-image.webp" alt="landing-image">
             </motion.img>
 
             
