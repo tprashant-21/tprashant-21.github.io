@@ -56,7 +56,7 @@ export const WebProjects = [
         detail: " I think it caught the attention of many people, but I wanted more. I wanted smoother animation and a completely new feel to my portfolio. That’s why portfolio v2.",
         tech: ["HTML", "CSS", "JavaScript"],
         github: "https://github.com/tprashant-21/tprashant-21.github.io",
-        live: "https://prashanttimalsina.com",
+        live: "https://www.prashanttimalsina.com/portfolio-v1/",
         image: "src/assets/images/web-portfolio-1.webp"
     },
     ];
