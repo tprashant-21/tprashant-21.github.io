@@ -2,6 +2,7 @@
 import { BsGithub, BsLinkedin } from "react-icons/bs"
 import { MdEmail } from "react-icons/md"
 import Paragraph from "../components/Paragraph"
+import { motion } from "framer-motion"
 
 const ContactSec = () => {
   return (
@@ -17,12 +18,16 @@ const ContactSec = () => {
         
             <rect width='100%' height='100%' filter='url(#noiseFilter)'/>
         </svg>
-        <div className="z-10 px-40 text-4xl text-black font-handwriting">
+        <motion.div className="z-10 px-40 text-4xl text-black font-handwriting"
+           initial={{opacity: 0}}
+           whileInView={{opacity: 1, transition: {duration: .5}}}
+           viewport={{ amount: 'all', once: false }}
+           >
           <Paragraph text="Hey there! I'm Prashant, a rising senior and the proud conjurer of artistry and technology. With dual degrees in Computer Science and Arts & Design, my passion lies in crafting mesmerizing digital experiences that push the boundaries of imagination." />
           <Paragraph text="Currently, I'm weaving my magic as a Web Designer at Springfield College. I am also working as a Research Assistant building frontend system for the Motion Tracker Lab (a Computer Vision Research program) 🔬✨" />
           <Paragraph text="With a handful of impressive work experiences already under my belt, my journey is an exhilarating tale of blending creativity and coding to create websites that leave visitors awe-inspired. 💫🌐" />
           <Paragraph text="If you're seeking a web wizard who thrives on innovation and has the skills to bring dreams to life on the digital canvas, look no further! Let's weave a spell of excellence together. 🌟🎉" />
-        </div>
+        </motion.div>
 
         <div className="flex items-center gap-24 text-5xl">
             <BsGithub/>
