@@ -13,7 +13,7 @@ export const VRProjects = [
         id: 2,
         title: "VAPA Gallery VR",    
         description: "An Art Gallery in VR for Springfield College's VAPA department. Me and a talented friend of mine, Andreas Varnauskas (Multimedia Design major), collaborated on this as our final project for Advanced Design Studio class. We used Unity, C#, Autodesk MAYA for this project.",
-        detail: "We incorporated the art works of our professors and added our touch of what we think the Gallery should look like.",
+        detail: "We incorporated the art works of our professors and added our touch of what we think the Gallery should look like. Click on 'Source' to watch the funny video of Professor InDelicato trying it out for the first time.",
         tech: ["Unity", "C#", "Autodesk Maya", "URP", "XR Interaction Toolkit","Oculus XR Plugin"],   
         github: "https://github.com/tprashant-21/VAPA-Gallery-VR",
         live: "https://drive.google.com/file/d/1GW-hnLc9t3YAQ6QITRWiDNmHl7Qph60_/view?usp=drive_link",

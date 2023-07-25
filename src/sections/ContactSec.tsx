@@ -19,9 +19,9 @@ const ContactSec = () => {
             <rect width='100%' height='100%' filter='url(#noiseFilter)'/>
         </svg>
         <motion.div className="z-10 px-40 text-4xl text-black font-handwriting"
-           initial={{opacity: 0}}
-           whileInView={{opacity: 1, transition: {duration: .5}}}
-           viewport={{ amount: 'all', once: false }}
+           initial={{opacity: 0.1}}
+           whileInView={{opacity: 1, transition: {duration: 1}}}
+           viewport={{ amount: 0.7, once: false }}
            >
           <Paragraph text="Hey there! I'm Prashant, a rising senior and the proud conjurer of artistry and technology. With dual degrees in Computer Science and Arts & Design, my passion lies in crafting mesmerizing digital experiences that push the boundaries of imagination." />
           <Paragraph text="Currently, I'm weaving my magic as a Web Designer at Springfield College. I am also working as a Research Assistant building frontend system for the Motion Tracker Lab (a Computer Vision Research program) 🔬✨" />
