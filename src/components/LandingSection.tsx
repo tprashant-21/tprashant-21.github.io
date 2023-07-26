@@ -61,7 +61,7 @@ const LandingSection = () => {
 
 
             <motion.div
-                className='absolute group font-handwriting bottom-[400px] left-[440px] laptop:bottom-[180px] laptop:-left-[280px]  normal:-left-[400px] text-[18px] laptop:text-[28px] normal:text-[36px] text-black'
+                className='hidden tablet:block absolute group font-handwriting bottom-[400px] left-[440px] laptop:bottom-[180px] laptop:-left-[280px]  normal:-left-[400px] text-[18px] laptop:text-[28px] normal:text-[36px] text-black'
                 whileHover={{ scale: 1.08 }}
                 initial={{ opacity: 0}}
                 animate={{ opacity: 1, transition: { duration: .5, delay: 1.9}}}>
@@ -74,7 +74,7 @@ const LandingSection = () => {
                 whileHover={{ scale: 1.08 }}
                 initial={{ opacity: 0}}
                 animate={{ opacity: 1, transition: { duration: .5, delay: 1.9}}}
-                className="absolute bottom-[150px] left-[680px]" >
+                className="absolute bottom-[150px] left-[650px] hidden laptop:block" >
                 <motion.div 
                 onMouseEnter={()=>setCursor("text")} onMouseLeave={()=>setCursor("default")}
                 animate={{rotate: 360 }}

@@ -31,7 +31,7 @@ const Projects = () => {
 
             <div  className="sticky top-0 flex items-center justify-center w-full h-screen">
                 <div style={{transform: hoverHero.transform, transition: hoverHero.transition}}
-             className="relative  border-[#DDDBDB] border-[9px] flex justify-center items-center w-[200px] tablet:w-[350px] laptop:w-[500px] normal:w-[600px] aspect-square rounded-[5%]">
+             className="relative  border-[#DDDBDB] border-[4px] tablet:border-[6px] laptop:border-[9px] flex justify-center items-center w-[200px] tablet:w-[350px] laptop:w-[500px] normal:w-[600px] aspect-square rounded-[5%]">
                     <div className="text-xl text-[#DDDBDB] tablet:text-4xl laptop:text-6xl font-handwriting">My projects</div>
                     {projectList.map((project) => (
                         < project.card id={project.id.toLocaleString()} key={project.id}/>

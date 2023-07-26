@@ -20,7 +20,7 @@ const ProjectPicture = ({gradient, children, id}: ProjectPictureProps) => {
 
   return (
     <div 
-        className={`absolute inset-0 w-full h-full transition-opacity text-white rounded-2xl bg-gradient-to-br
+        className={`absolute inset-0 w-full h-full transition-opacity text-white rounded-md laptop:rounded-2xl bg-gradient-to-br
          ${gradient} ${inViewFeature === id ? "opacity-100": "opacity-0"}`}>
         {children}
     </div>
@@ -38,7 +38,7 @@ export const WebDevPicture = ({id}: CardProps) => {
       
     
       <img
-      className="absolute left-[10%] -rotate-1 top-[68%] w-[53%]  rounded-xl shadow-lg transition-transform"
+      className="absolute left-[10%] -rotate-1 top-[68%] w-[53%]  rounded-lg shadow-lg transition-transform"
         src="/web-disney-clone.webp"
       />
 
