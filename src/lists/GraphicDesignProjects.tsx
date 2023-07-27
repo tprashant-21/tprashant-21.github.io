@@ -7,7 +7,7 @@ export const GraphicDesignProjects = [
         tech: ["Adobe Illustrator"],
         github: "https://drive.google.com/file/d/1X4ciSnW2wF5Q1gvQ7qmSmwpHAkBCKFM2/view?usp=drive_link",
         live: "https://drive.google.com/file/d/1U5n64TMqnVNmiA-7rUGO1Au9HF_9398V/view?usp=drive_link",
-        image: "src/assets/images/graphic-religion.webp"
+        image: "/graphic-religion.webp"
     },
     {
         id: 2,
@@ -17,7 +17,7 @@ export const GraphicDesignProjects = [
         tech: ["Adobe Illustrator"],   
         github: "https://drive.google.com/file/d/1tTUpou6CMrYO3szTvYmmCkDFO8ApMp5B/view?usp=drive_link",
         live: "https://drive.google.com/file/d/1dGn291PcaplSmv8B85JbBgc_0fJJ4f14/view?usp=drive_link",
-        image: "src/assets/images/graphic-four-icons.webp"
+        image: "/graphic-four-icons.webp"
     },
     {
         id: 3,
@@ -27,7 +27,7 @@ export const GraphicDesignProjects = [
         tech: ["Adobe Illustrator"],
         github: "https://drive.google.com/file/d/1nv9vCzSnzQIIhVmdPhlCVJdTis22n-tt/view?usp=drive_link",
         live: "https://drive.google.com/file/d/1IU8vlbhHd75qes0mvb3Ws4ig6vz9RI5R/view?usp=drive_link",
-        image: "src/assets/images/graphic-pig.webp"
+        image: "/graphic-pig.webp"
     },
     {
         id: 4,
@@ -37,7 +37,7 @@ export const GraphicDesignProjects = [
         tech: ["Adobe Illustrator"],
         github: "https://drive.google.com/file/d/1Cwl4hsbJqlW6pO_IwHcd7L2rr7d0MWmc/view?usp=drive_link",
         live: "https://drive.google.com/file/d/1C40EY0WjMtJZ-9Kbckr_LY3yYhRo2Yv8/view?usp=drive_link",
-        image: "src/assets/images/graphic-metamorphosis.webp"
+        image: "/graphic-metamorphosis.webp"
     },
     {
         id: 5,
@@ -47,7 +47,7 @@ export const GraphicDesignProjects = [
         tech: ["After Effects", "Adobe Illustrator"],
         github: "https://3.basecamp.com/3589416/buckets/28783280/uploads/5346576344",
         live: "https://drive.google.com/file/d/1uKVcVaFKcQi_Qr59-DF15GwXyxMdVq7e/view?usp=drive_link",
-        image: "src/assets/images/graphic-religion.webp"
+        image: "/graphic-religion.webp"
     },
     ];
 

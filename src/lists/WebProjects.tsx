@@ -7,7 +7,7 @@ export const WebProjects = [
         tech: ["REACT", "TypeScript", "Zustand", "Tailwind", "React Router", "OpenCV"],
         github: "https://github.com/PiPhysics/MotionTrackerLab",
         live: "https://piphysics.github.io/MotionTrackerLab/",
-        image: "src/assets/images/web-motiontracker.webp"
+        image: "/web-motiontracker.webp"
     },
     {
         id: 2,
@@ -17,7 +17,7 @@ export const WebProjects = [
         tech: ["AlpineJS", "TailwindCSS", "HTML", "CSS", "Zola"],   
         github: "https://github.com/SpringfieldCollege-MPCS/cisc288-final-website-giclee-printing-framing",
         live: "https://springfieldcollege-mpcs.github.io/cisc288-final-website-giclee-printing-framing/",
-        image: "src/assets/images/web-glicee.webp"
+        image: "/web-glicee.webp"
     },
     {
         id: 3,
@@ -27,7 +27,7 @@ export const WebProjects = [
         tech: ["REACT", "TypeScript", "TailwindCSS", "React DnD"],
         github: "https://github.com/tprashant-21/effective-task-planner",
         live: "https://effective-task-planner.vercel.app/",
-        image: "src/assets/images/web-effective-task-planner.webp"
+        image: "/web-effective-task-planner.webp"
     },
     {
         id: 4,
@@ -37,7 +37,7 @@ export const WebProjects = [
         tech: ["HTML", "CSS", "JavaScript", "Adobe Illustrator"],
         github: "https://github.com/tprashant-21/rememberCOVIDfacts",
         live: "https://tprashant-21.github.io/rememberCOVIDfacts/",
-        image: "src/assets/images/web-covid.webp"
+        image: "/web-covid.webp"
     },
     {
         id: 5,
@@ -47,7 +47,7 @@ export const WebProjects = [
         tech: ["REACT", "TypeScript", "TailwindCSS", "TheMovieDB API"],
         github: "https://github.com/tprashant-21/disney-plus-clone",
         live: "https://disney-plus-clone-react-tprashant-21.vercel.app",
-        image: "src/assets/images/web-disney-clone.webp"
+        image: "/web-disney-clone.webp"
     },
     {
         id: 6,
@@ -57,7 +57,7 @@ export const WebProjects = [
         tech: ["HTML", "CSS", "JavaScript"],
         github: "https://github.com/tprashant-21/tprashant-21.github.io",
         live: "https://www.prashanttimalsina.com/portfolio-v1/",
-        image: "src/assets/images/web-portfolio-1.webp"
+        image: "/web-portfolio-1.webp"
     },
     ];
 

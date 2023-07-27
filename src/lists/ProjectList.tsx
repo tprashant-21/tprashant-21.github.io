@@ -4,13 +4,11 @@ import { RoboticsPicture, AnimationPicture, ContentCreationPicture, GraphicDesig
 export const projectList = [
     {
         title: "Web Dev",
-        // route: "/webdev",
         id: 1,
         card: WebDevPicture
     },
     {
         title: "VR Dev & 3D",
-        // route: "/vrdev",
         id: 2,
         card: VRDevPicture
     },

@@ -7,7 +7,7 @@ export const AnimationProjects = [
         tech: ["Autodesk Maya", "Maximo"],
         github: "https://drive.google.com/file/d/1wci6wK8jn7GrXVOSMMbvEm4JA0mKiKb7/view?usp=drive_link",
         live: "https://drive.google.com/file/d/1YPJSyq3dBmVHtTcA2bDa3-G2b4Tv7-VS/view?usp=drive_link",
-        image: "src/assets/images/animation-3d.webp"
+        image: "/animation-3d.webp"
     },
     {
         id: 2,
@@ -17,7 +17,7 @@ export const AnimationProjects = [
         tech: ["Adobe Animate", "Adobe Illustrator"],   
         github: "https://docs.google.com/document/d/1UcVMi64zKoES_RXP-wYe9KUbS5dH1quZ6D0zjsw9dz0/edit?usp=drive_link",
         live: "https://drive.google.com/file/d/1B-vzQ1Tk29J22prkr9GKgmGpsAKvgJRQ/view?usp=drive_link",
-        image: "src/assets/images/animation-2d.webp"
+        image: "/animation-2d.webp"
     },
     {
         id: 3,
@@ -27,7 +27,7 @@ export const AnimationProjects = [
         tech: ["Adobe Premiere Pro", "Adobe Photoshop"],
         github: "https://drive.google.com/file/d/1ZcNzxAjPe4L8pPt989AsZy693Fr10BKR/view?usp=drive_link",
         live: "https://drive.google.com/file/d/1ZcNzxAjPe4L8pPt989AsZy693Fr10BKR/view?usp=drive_link",
-        image: "src/assets/images/covid.png"
+        image: "/covid.png"
     },
     ];
 

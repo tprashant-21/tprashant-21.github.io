@@ -7,7 +7,7 @@ export const VRProjects = [
         tech: ["Unity","C#", "URP", "XR Interaction Toolkit", "XR Plugin Management","Oculus XR Plugin"],
         github: "https://github.com/tprashant-21/BasketBrawl",
         live: "https://drive.google.com/file/d/1GjMufC5RlJfBPNFzH1voLtXEcOzn8_XU/view?usp=drive_link",
-        image: "src/assets/images/vr-basketbrawl.webp"
+        image: "/vr-basketbrawl.webp"
     },
     {
         id: 2,
@@ -17,7 +17,7 @@ export const VRProjects = [
         tech: ["Unity", "C#", "Autodesk Maya", "URP", "XR Interaction Toolkit","Oculus XR Plugin"],   
         github: "https://github.com/tprashant-21/VAPA-Gallery-VR",
         live: "https://drive.google.com/file/d/1GW-hnLc9t3YAQ6QITRWiDNmHl7Qph60_/view?usp=drive_link",
-        image: "src/assets/images/vr-gallery.webp"
+        image: "/vr-gallery.webp"
     },
     {
         id: 3,
@@ -28,7 +28,7 @@ export const VRProjects = [
         // github upload remaining
         github: "",
         live: "https://drive.google.com/file/d/1RbhRtF8FTKPDEG7iz4qolLB6p7MdYv4_/view?usp=drive_link",
-        image: "src/assets/images/vr-dupsum.webp"
+        image: "/vr-dupsum.webp"
     },
     {
         id: 4,
@@ -39,7 +39,7 @@ export const VRProjects = [
         // github upload remaining
         github: "https://github.com/tprashant-21/disney-plus-clone",
         live: "https://drive.google.com/file/d/1swx8OQLq38l24KKFeplFOodBAjdjdD4Y/view?usp=drive_link",
-        image: "src/assets/images/vr-galactic-rotation.webp"
+        image: "/vr-galactic-rotation.webp"
     },
     {
         id: 5,
@@ -50,7 +50,7 @@ export const VRProjects = [
         // github upload remaining
         github: "https://github.com/tprashant-21/tprashant-21.github.io",
         live: "https://prashanttimalsina.com",
-        image: "src/assets/images/vr-springfield-college.webp"
+        image: "/vr-springfield-college.webp"
     },
     ];
 

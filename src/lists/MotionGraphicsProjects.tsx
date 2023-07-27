@@ -7,7 +7,7 @@ export const MotionGraphicsProjects = [
         tech: ["After Effects", "Adobe Illustrator"],
         github: "https://drive.google.com/file/d/1SeqlwrGpd1jPGEW_0zo9BKidFA3Q4E0v/view?usp=drive_link",
         live: "https://drive.google.com/file/d/1aveON9gWVcay2MOe3uqqendgc-2VByW2/view?usp=drive_link",
-        image: "src/assets/images/motion-im-yu.webp"
+        image: "/motion-im-yu.webp"
     },
     {
         id: 2,
@@ -17,7 +17,7 @@ export const MotionGraphicsProjects = [
         tech: ["After Effects", "Adobe Illustrator"],   
         github: "https://drive.google.com/file/d/1x3ySXEzxRpB67yuzMkKrW9-pMWJRuUhG/view?usp=drive_link",
         live: "https://drive.google.com/file/d/1ZD_I0h6rtJ5eNJCKG65zkhAO2zg-NP97/view?usp=drive_link",
-        image: "src/assets/images/motion-labyrinth.webp"
+        image: "/motion-labyrinth.webp"
     },
     {
         id: 3,
@@ -27,7 +27,7 @@ export const MotionGraphicsProjects = [
         tech: ["After Effects"],
         github: "https://drive.google.com/file/d/1aXHqlDDRgoy1YmvD71k2mmE_cFx0qvef/view?usp=drive_link",
         live: "https://drive.google.com/file/d/1jPFeT4BtE2DVFSokxxuGsFv5Q5rdU2SW/view?usp=drive_link",
-        image: "src/assets/images/motion-geometric.webp"
+        image: "/motion-geometric.webp"
     },
     {
         id: 4,
@@ -37,7 +37,7 @@ export const MotionGraphicsProjects = [
         tech: ["After Effects"],
         github: "https://drive.google.com/file/d/1-U1I8uy08bhkRwwWWc-_AaJx9V8pKNlx/view?usp=drive_link",
         live: "https://drive.google.com/file/d/1p6i7rWeeq66Nr5cwyNt4LN9D2aFb6gFI/view?usp=drive_link",
-        image: "src/assets/images/motion-stop-animation.webp"
+        image: "/motion-stop-animation.webp"
     },
     {
         id: 5,
@@ -47,7 +47,7 @@ export const MotionGraphicsProjects = [
         tech: ["After Effects", "Adobe Illustrator"],
         github: "https://3.basecamp.com/3589416/buckets/28783280/uploads/5346576344",
         live: "https://drive.google.com/file/d/1uKVcVaFKcQi_Qr59-DF15GwXyxMdVq7e/view?usp=drive_link",
-        image: "src/assets/images/motion-cr7.webp"
+        image: "/motion-cr7.webp"
     },
     ];
 

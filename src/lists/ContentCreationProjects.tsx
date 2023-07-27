@@ -7,7 +7,7 @@ export const ContentCreationProjects = [
         tech: ["Adobe Premiere Pro"],
         github: "https://www.instagram.com/reel/CpGnD-3JDHj/?hl=en",
         live: "https://www.instagram.com/reel/CpGnD-3JDHj/?hl=en",
-        image: "src/assets/images/content-trivia-2.webp"
+        image: "/content-trivia-2.webp"
     },
     {
         id: 2,
@@ -17,7 +17,7 @@ export const ContentCreationProjects = [
         tech: ["Adobe Premiere Pro"],   
         github: "https://www.instagram.com/p/ClHTr1hAHld/?hl=en",
         live: "https://www.instagram.com/p/ClHTr1hAHld/?hl=en",
-        image: "src/assets/images/content-easiest-major.webp"
+        image: "/content-easiest-major.webp"
     },
     {
         id: 3,
@@ -27,7 +27,7 @@ export const ContentCreationProjects = [
         tech: ["Adobe Premiere Pro", "Adobe Photoshop"],
         github: "https://drive.google.com/file/d/1ZcNzxAjPe4L8pPt989AsZy693Fr10BKR/view?usp=drive_link",
         live: "https://drive.google.com/file/d/1ZcNzxAjPe4L8pPt989AsZy693Fr10BKR/view?usp=drive_link",
-        image: "src/assets/images/content-honors.webp"
+        image: "/content-honors.webp"
     },
     {
         id: 4,
@@ -37,7 +37,7 @@ export const ContentCreationProjects = [
         tech: ["Adobe Premiere Pro", "SoundStripe"],
         github: "https://github.com/tprashant-21/effective-task-planner",
         live: "https://effective-task-planner.vercel.app/",
-        image: "src/assets/images/content-parade.webp"
+        image: "/content-parade.webp"
     },
     {
         id: 5,
@@ -47,7 +47,7 @@ export const ContentCreationProjects = [
         tech: ["Adobe Premiere Pro"],
         github: "https://www.instagram.com/p/CdJ6JoPAcH3/?hl=en",
         live: "https://www.instagram.com/p/CdJ6JoPAcH3/?hl=en",
-        image: "src/assets/images/content-balen.webp"
+        image: "/content-balen.webp"
     },
     {
         id: 6,
@@ -57,7 +57,7 @@ export const ContentCreationProjects = [
         tech: ["Adobe Premiere Pro", "SoundStripe"],
         github: "https://www.instagram.com/reel/Crv_ZwEMGcu/?hl=en",
         live: "https://www.instagram.com/reel/Crv_ZwEMGcu/?hl=en",
-        image: "src/assets/images/content-summer.webp"
+        image: "/content-summer.webp"
     },
     ];
 
