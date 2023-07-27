@@ -7,7 +7,7 @@ import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
-    <HashRouter basename='projects' hashType="noslash">
+    <HashRouter>
       <App />
     </HashRouter >
   </React.StrictMode>,
