@@ -33,7 +33,7 @@ export const WebDevPicture = ({id}: CardProps) => {
           
       <img
         className="absolute left-[10%] rotate-1  top-[4%] w-[50%] rounded-xl shadow-lg transition-transform"
-        src="/web-motiontracker.webp"
+        src="#projects/web-motiontracker.webp"
       />
       
     
