@@ -4,6 +4,8 @@ import LandingSec from "../sections/LandingSec"
 import Projects from "../sections/Projects"
 
 
+
+
 import { TabTitle } from "../Utils/GeneralFunc"
 
 const Home = () => {
@@ -15,7 +17,7 @@ const Home = () => {
     <div className="container select-none mx-auto max-w-[2000px]">
 
       <LandingSec   /> 
-      <Projects />
+      <Projects  />
       <ContactSec />
 
 

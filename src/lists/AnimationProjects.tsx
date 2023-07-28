@@ -19,16 +19,6 @@ export const AnimationProjects = [
         live: "https://drive.google.com/file/d/1B-vzQ1Tk29J22prkr9GKgmGpsAKvgJRQ/view?usp=drive_link",
         image: "/animation-2d.webp"
     },
-    {
-        id: 3,
-        title: "The Honors: The Office Parody",
-        description: "I undertook this project while I was the Excecutive Board member of the Honors program. I was responsible for the entire production process, from reaching to faculties for their schedule to editing it.",
-        detail: "A big shout out to Dr. Rebecca Lartigue, the Director of Honors Program, for driving me around while shooting and her support throughout the process. It was a big hit among the students and faculties. There is no second opinion on it being a great way to promote the Honors program in a fun way.",
-        tech: ["Adobe Premiere Pro", "Adobe Photoshop"],
-        github: "https://drive.google.com/file/d/1ZcNzxAjPe4L8pPt989AsZy693Fr10BKR/view?usp=drive_link",
-        live: "https://drive.google.com/file/d/1ZcNzxAjPe4L8pPt989AsZy693Fr10BKR/view?usp=drive_link",
-        image: "/covid.png"
-    },
     ];
 
 

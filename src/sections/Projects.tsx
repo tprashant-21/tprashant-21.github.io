@@ -16,7 +16,7 @@ const Projects = () => {
       });
 
   return (
-    <div ref={ref}  className="border-y-[9px] border-[#DDDBDB] min-h-screen">
+    <div ref={ref} id="projects"  className="border-y-[9px] border-[#DDDBDB] min-h-screen">
         <div className="flex items-start w-full gap-3 tablet:gap-10">
 
             <div className="flex justify-end items-center w-full py-[50vh]">

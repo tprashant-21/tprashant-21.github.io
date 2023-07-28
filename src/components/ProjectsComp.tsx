@@ -17,7 +17,7 @@ const ProjectsComp = ({project, i}: props) => {
   return (
     <motion.div 
       initial={{opacity: 0}}
-      animate={{opacity: 1, transition: {delay: 1, duration: 0.5, ease: "easeInOut"}}}
+      animate={{opacity: 1, transition: {delay: 0.4, duration: 0.5, ease: "easeInOut"}}}
       
       key={i} className="border-2 mt-[50px] border-gray-200 rounded-2xl border-dashed w-[90%] mx-auto">
         <div className="flex flex-col-reverse items-center justify-center px-5 py-5 laptop:py-10 laptop:px-14 gap-y-6 laptop:flex-row">

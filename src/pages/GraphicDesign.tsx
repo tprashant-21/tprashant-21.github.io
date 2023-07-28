@@ -16,7 +16,7 @@ const GraphicDesignDev = () => {
 
     <motion.div 
       initial={{opacity: 0}}
-      animate={{opacity: 1, transition: {delay: 0.5, duration: 0.5, ease: "easeInOut"}}}
+      animate={{opacity: 1, transition: {duration: 0.5, ease: "easeInOut"}}}
       className="container mx-auto max-w-[2000px]">
       
       <ProjectHeader title={"Graphic Design"} prev={"VR Dev & 3D"} linkPrev="/vrdev" next={"Motion Graphics"} linkNext={"/motiongraphics"}/>

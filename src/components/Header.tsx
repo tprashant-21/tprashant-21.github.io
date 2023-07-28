@@ -4,6 +4,7 @@ import {PiGraduationCapLight} from 'react-icons/pi'
 import {MdSimCardDownload} from "react-icons/md"
 import { useCursorStore } from "../store"
 
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 const Header = () => {
 
@@ -30,11 +31,7 @@ const Header = () => {
         <div className="z-10 flex items-center laptop:gap-x-[100px] flex-col tablet:flex-row gap-y-3 tablet:gap-y-0 gap-x-10 tablet:gap-x-28 normal:gap-x-32">
             <p className="text-lg text-black underline decoration-2 underline-offset-4 decoration-zinc-700 decoration-dashed tablet:text-xl laptop:text-2xl normal:text-3xl font-handwriting">Prashant Timalsina</p>
             <div className="relative ">
-                <div
-                // initial={{ opacity: 0, scale: 0 }}
-                // animate={{ opacity: 1, scale: [0.5,2,2,1]}}
-                // transition={{ delay: 2, duration: 1, type: 'spring', stiffness: 100 }}
-                ><CiLocationOn className=" absolute -top-[5px] -left-[35px] text-2xl tablet:text-3xl"/></div>
+                <div><CiLocationOn className=" absolute -top-[5px] -left-[35px] text-2xl tablet:text-3xl"/></div>
                 <p>Based in Springfield, MA</p>
             </div>
             <div className="relative">
@@ -46,9 +43,9 @@ const Header = () => {
         </div>
 
         <div className='z-10 items-center hidden laptop:flex gap-x-6 normal:gap-x-10'>
-            <a onMouseEnter={()=>setCursor("hover")} onMouseLeave={()=>setCursor("default")} className="cursor-pointer hover:underline">About</a>
-            <a onMouseEnter={()=>setCursor("hover")} onMouseLeave={()=>setCursor("default")} className="cursor-pointer hover:underline">Projects</a>
-            <a onMouseEnter={()=>setCursor("hover")} onMouseLeave={()=>setCursor("default")} className="flex items-center px-2 bg-black cursor-pointer rounded-xl hover:underline">CV  <MdSimCardDownload className="inline-block ml-1 text-xl" /></a>
+            <AnchorLink href='#about' onMouseEnter={()=>setCursor("hover")} onMouseLeave={()=>setCursor("default")} className="cursor-pointer ">About</AnchorLink> 
+            <AnchorLink href='#projects' onMouseEnter={()=>setCursor("hover")} onMouseLeave={()=>setCursor("default")} className="cursor-pointer">Projects</AnchorLink>
+            <a download={true} href="/Prashant-Timalsina-Resume-Aug-2023.pdf" onMouseEnter={()=>setCursor("hover")} onMouseLeave={()=>setCursor("default")} className="flex items-center px-2 duration-100 ease-in bg-black cursor-pointer hover:scale-125 rounded-xl">CV  <MdSimCardDownload className="inline-block ml-1 text-xl" /></a>
         </div>
         
     </motion.div>

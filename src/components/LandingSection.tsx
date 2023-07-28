@@ -43,8 +43,6 @@ const LandingSection = () => {
 
             initial={{opacity: 0, scale: 1}}
             
-            // whileHover={{ scale: 1.02 }}
-            
             animate={{
               opacity: 1,
               scale: [1,.98,1],

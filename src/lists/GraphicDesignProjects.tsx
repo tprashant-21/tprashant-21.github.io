@@ -41,7 +41,7 @@ export const GraphicDesignProjects = [
     },
     {
         id: 5,
-        title: "The Narrative: CR7",
+        title: "Fashion Magazine Cover Collage",
         description: "A video tributing the amazing memories of Cristiano Ronaldo at Real Madrid. I did this project to perfect rhythm and timing in video editing. The audio track is one of my favorite songs, and I wanted to make a video that would do it justice.",
         detail: "I hope to give audience goosebumps with my edit.",
         tech: ["After Effects", "Adobe Illustrator"],
