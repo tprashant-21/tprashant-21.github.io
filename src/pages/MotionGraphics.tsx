@@ -25,9 +25,8 @@ const MotionGraphicsDev = () => {
       <ProjectsComp project={project} i={i} />
       )}
 
-      <div>
-        <div className="m-[100px] tablet:m-[50px] text-5xl font-handwriting font-extrabold text-center">
-         For more other projects, revisit my <a href="https://github.com/tprashant-21" target="_blank" className="text-4xl underline font-poppins">profile</a> </div>
+      <div className="mt-[50px]">
+
       </div>
 
     </motion.div>
