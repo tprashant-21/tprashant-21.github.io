@@ -24,7 +24,7 @@ const VRDev = () => {
       )}
 
       <div>
-        <div className="m-[100px] tablet:m-[50px] text-5xl font-handwriting font-extrabold text-center">
+        <div className="m-[100px] tablet:m-[50px] text-2xl tablet:text-5xl font-handwriting font-extrabold text-center">
          For more VR & 3D projects, visit my <a href="https://github.com/tprashant-21" target="_blank" className="text-4xl underline font-poppins">github</a> </div>
       </div>
 

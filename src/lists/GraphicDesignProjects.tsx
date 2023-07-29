@@ -39,16 +39,16 @@ export const GraphicDesignProjects = [
         live: "https://drive.google.com/file/d/1C40EY0WjMtJZ-9Kbckr_LY3yYhRo2Yv8/view?usp=drive_link",
         image: "/graphic-metamorphosis.webp"
     },
-    {
-        id: 5,
-        title: "Fashion Magazine Cover Collage",
-        description: "A video tributing the amazing memories of Cristiano Ronaldo at Real Madrid. I did this project to perfect rhythm and timing in video editing. The audio track is one of my favorite songs, and I wanted to make a video that would do it justice.",
-        detail: "I hope to give audience goosebumps with my edit.",
-        tech: ["After Effects", "Adobe Illustrator"],
-        github: "https://3.basecamp.com/3589416/buckets/28783280/uploads/5346576344",
-        live: "https://drive.google.com/file/d/1uKVcVaFKcQi_Qr59-DF15GwXyxMdVq7e/view?usp=drive_link",
-        image: "/graphic-religion.webp"
-    },
+    // {
+    //     id: 5,
+    //     title: "Fashion Magazine Cover Collage",
+    //     description: "A video tributing the amazing memories of Cristiano Ronaldo at Real Madrid. I did this project to perfect rhythm and timing in video editing. The audio track is one of my favorite songs, and I wanted to make a video that would do it justice.",
+    //     detail: "I hope to give audience goosebumps with my edit.",
+    //     tech: ["After Effects", "Adobe Illustrator"],
+    //     github: "https://3.basecamp.com/3589416/buckets/28783280/uploads/5346576344",
+    //     live: "https://drive.google.com/file/d/1uKVcVaFKcQi_Qr59-DF15GwXyxMdVq7e/view?usp=drive_link",
+    //     image: "/graphic-religion.webp"
+    // },
     ];
 
 

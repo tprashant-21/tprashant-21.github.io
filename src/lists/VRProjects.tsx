@@ -25,8 +25,7 @@ export const VRProjects = [
         description: "A Car Showroom experience in Virtual Reality. This project was a part of my XR Terra VR Development Bootcamp. I made this VR experience as one of my early projects for the Bootcamp.",
         detail: "You can walk around and observe the car as if you are in a showroom. In addition, you can interact with the XR UI to change the color of the car, rotation, time of the day and also make it do a moving demo.",
         tech: ["Unity","C#", "URP", "XR Interaction Toolkit", "XR Plugin Management","Oculus XR Plugin"],
-        // github upload remaining
-        github: "",
+        github: "https://github.com/tprashant-21/Dupsum-VR-Car-Showroom",
         live: "https://drive.google.com/file/d/1RbhRtF8FTKPDEG7iz4qolLB6p7MdYv4_/view?usp=drive_link",
         image: "/vr-dupsum.webp"
     },
@@ -36,8 +35,7 @@ export const VRProjects = [
         description: "A simulation of spiral galactic rotation using Unity's Particle System. Me and Professor Harold InDelicato worked on this project for my HNRS 141 Independent Research study to learn the powerful Paricle System in greater depth. I presented this project for “Scholars in Action” at Springfield College.",
         detail: "I learned a lot about the particle system and how to use it to create beautiful simulations. I also learned about the physics behind the spiral galaxy rotation.",
         tech: ["Unity", "Particle System"],
-        // github upload remaining
-        github: "https://github.com/tprashant-21/disney-plus-clone",
+        github: "https://github.com/tprashant-21/GalaxyRotationSimulation",
         live: "https://drive.google.com/file/d/1swx8OQLq38l24KKFeplFOodBAjdjdD4Y/view?usp=drive_link",
         image: "/vr-galactic-rotation.webp"
     },
@@ -47,9 +45,8 @@ export const VRProjects = [
         description: "A 3D model of entire Springfield College, modeled and 3D printed. Me and a talented friend of mine, Andreas Varnauskas (Multimedia Design major), collaborated on this as a group project for Advanced Design Studio class. We used Autodesk MAYA for 3D modeling.",
         detail: " This 3D model is a great way to visualize the entire campus in a 3D space. We also printed the model and presented it at “VAPA Undergraduate Student Art Show” at Springfield College.",
         tech: ["HTML", "CSS", "JavaScript"],
-        // github upload remaining
-        github: "https://github.com/tprashant-21/tprashant-21.github.io",
-        live: "https://prashanttimalsina.com",
+        github: "https://drive.google.com/file/d/13ggOyzuDoy2kdbmZ-GfQZZIRqAdtavVA/view?usp=drive_link",
+        live: "https://github.com/tprashant-21/SpringfieldCollege-3D-modelled",
         image: "/vr-springfield-college.webp"
     },
     ];

@@ -35,8 +35,8 @@ export const ContentCreationProjects = [
         description: "I was asked to cover Springfield College's Annual Pride Parade at Alden Street, Springfield, MA. I was single-handedly responsible for the entire production process, from shooting to editing it.",
         detail : "I had never been to a Pride Parade before, but I think I did a good job at capturing the moments and the spirit of the Parade. This experience allowed me to learn more about cinematography and improvisation while shooting.",
         tech: ["Adobe Premiere Pro", "SoundStripe"],
-        github: "https://github.com/tprashant-21/effective-task-planner",
-        live: "https://effective-task-planner.vercel.app/",
+        github: "https://www.instagram.com/reel/CqYaznbphLa/",
+        live: "https://www.instagram.com/reel/CqYaznbphLa/",
         image: "/content-parade.webp"
     },
     {

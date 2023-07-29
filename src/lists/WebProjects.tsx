@@ -55,7 +55,7 @@ export const WebProjects = [
         description: "My first portfolio site. I am still proud of this project. I made this site after self-learning web development. Like a typical portfolio, it has all its elements and a beautiful style.",
         detail: " I think it caught the attention of many people, but I wanted more. I wanted smoother animation and a completely new feel to my portfolio. That’s why portfolio v2.",
         tech: ["HTML", "CSS", "JavaScript"],
-        github: "https://github.com/tprashant-21/tprashant-21.github.io",
+        github: "https://github.com/tprashant-21/portfolio-v1",
         live: "https://www.prashanttimalsina.com/portfolio-v1/",
         image: "/web-portfolio-1.webp"
     },

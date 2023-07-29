@@ -14,6 +14,10 @@ const Robotics = () => {
         
       <ProjectHeader title={"Robotics & others"} prev={"Animation"} linkPrev="/animation" next={"Web Dev"} linkNext={"/webdev"}/>
 
+      <div>
+        <h1 className="mt-20 text-2xl font-bold text-center tablet:text-4xl font-handwriting">Contents to be uploaded soon!</h1>
+      </div>
+
     </motion.div>
   )
 }
