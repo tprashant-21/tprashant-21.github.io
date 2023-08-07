@@ -40,14 +40,14 @@ const ContactSec = () => {
           viewport={{ amount: "all", once: false }}
          className="z-10 flex items-center gap-24 text-3xl tablet:text-4xl laptop:text-5xl normal:text-6xl">
     
-            <a href="https://github.com/tprashant-21"><BsGithub onMouseEnter={()=>setCursor("hover")} onMouseLeave={()=>setCursor("default")} className="duration-100 ease-in hover:scale-125" /></a>
-            <a href="mailto:ptimalsina@springfieldcollege.edu"><MdEmail onMouseEnter={()=>setCursor("hover")} onMouseLeave={()=>setCursor("default")} className="text-4xl duration-100 ease-in hover:scale-125 tablet:text-5xl laptop:text-6xl normal:text-7xl"/></a>
-            <a href="https://www.linkedin.com/in/prashant-timalsina-97605720a/"><BsLinkedin onMouseEnter={()=>setCursor("hover")} onMouseLeave={()=>setCursor("default")} className="duration-100 ease-in hover:scale-125"  /></a>
+            <a target="_blank" href="https://github.com/tprashant-21"><BsGithub onMouseEnter={()=>setCursor("hover")} onMouseLeave={()=>setCursor("default")} className="duration-100 ease-in hover:scale-125" /></a>
+            <a target="_blank" href="mailto:ptimalsina@springfieldcollege.edu"><MdEmail onMouseEnter={()=>setCursor("hover")} onMouseLeave={()=>setCursor("default")} className="text-4xl duration-100 ease-in hover:scale-125 tablet:text-5xl laptop:text-6xl normal:text-7xl"/></a>
+            <a target="_blank" href="https://www.linkedin.com/in/prashant-timalsina-97605720a/"><BsLinkedin onMouseEnter={()=>setCursor("hover")} onMouseLeave={()=>setCursor("default")} className="duration-100 ease-in hover:scale-125"  /></a>
         </motion.div>
 
         <motion.div 
           initial={{opacity: 0}}
-          whileInView={{opacity: 1, transition: {duration: 1.5, delay:0.1}}}
+          whileInView={{opacity: 1, transition: {duration: 1, delay:0.1}}}
           viewport={{ amount: "all", once: false }}
           className="absolute bottom-0 p-3 text-xl text-black tablet:text-2xl font-handwriting">
            with ❤️ by Prashant Timalsina
