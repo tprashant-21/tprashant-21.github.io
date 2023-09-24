@@ -3,11 +3,16 @@ import { useRef } from "react"
 import hover3d from "../Utils/HoverCard"
 import { projectList } from "../lists/ProjectList"
 
+import { useCursorStore } from "../store"
+
+
 
 
 const Projects = () => {
 
     const ref = useRef<HTMLDivElement>(null);
+
+    const setCursor = useCursorStore(state => state.setCursorVariant);
 
     const hoverHero = hover3d(ref, {
         x: 8,
@@ -30,7 +35,7 @@ const Projects = () => {
             </div >
 
             <div  className="sticky top-0 flex items-center justify-center w-full h-screen">
-                <div style={{transform: hoverHero.transform, transition: hoverHero.transition}}
+                <div onMouseEnter={()=>setCursor("hover")} onMouseLeave={()=>setCursor("default")} style={{transform: hoverHero.transform, transition: hoverHero.transition}}
              className="relative  border-[#DDDBDB] border-[4px] tablet:border-[6px] laptop:border-[9px] flex justify-center items-center w-[200px] tablet:w-[350px] laptop:w-[500px] normal:w-[600px] aspect-square rounded-[5%]">
                     <div className="text-xl text-[#DDDBDB] tablet:text-4xl laptop:text-6xl font-handwriting">My projects</div>
                     {projectList.map((project) => (
