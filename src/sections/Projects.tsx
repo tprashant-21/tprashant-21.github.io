@@ -8,6 +8,7 @@ import { useCursorStore } from "../store"
 
 
 
+
 const Projects = () => {
 
     const ref = useRef<HTMLDivElement>(null);
@@ -47,6 +48,7 @@ const Projects = () => {
         </div>
     </div>
   )
+
 }
 
 export default Projects
