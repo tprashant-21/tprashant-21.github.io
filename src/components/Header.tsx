@@ -45,7 +45,7 @@ const Header = () => {
         <div className='z-10 items-center hidden laptop:flex gap-x-6 normal:gap-x-10'>
             <AnchorLink href='#about' onMouseEnter={()=>setCursor("hover")} onMouseLeave={()=>setCursor("default")} className="cursor-pointer ">About</AnchorLink> 
             <AnchorLink href='#projects' onMouseEnter={()=>setCursor("hover")} onMouseLeave={()=>setCursor("default")} className="cursor-pointer">Projects</AnchorLink>
-            <a download={true} href="/Prashant Timalsina's Resume -INT.pdf" onMouseEnter={()=>setCursor("hover")} onMouseLeave={()=>setCursor("default")} className="flex items-center px-2 duration-100 ease-in bg-black cursor-pointer hover:scale-125 rounded-xl">CV  <MdSimCardDownload className="inline-block ml-1 text-xl" /></a>
+            <a download={true} href="/Prashant Timalsina's Resume -IN.pdf" onMouseEnter={()=>setCursor("hover")} onMouseLeave={()=>setCursor("default")} className="flex items-center px-2 duration-100 ease-in bg-black cursor-pointer hover:scale-125 rounded-xl">CV  <MdSimCardDownload className="inline-block ml-1 text-xl" /></a>
         </div>
         
     </motion.div>
