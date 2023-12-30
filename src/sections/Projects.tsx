@@ -3,6 +3,7 @@ import { useRef } from "react"
 import hover3d from "../Utils/HoverCard"
 import { projectList } from "../lists/ProjectList"
 
+
 import { useCursorStore } from "../store"
 
 
@@ -28,8 +29,10 @@ const Projects = () => {
             <div className="flex justify-end items-center w-full py-[50vh]">
                 <ul>
                     {projectList.map((project, id) => (
-                        <li key={id}>
+                        <li className="cursor-e-resize" key={id}>
+
                             <ProjectList id={project.id.toLocaleString()} >{project.title}</ProjectList>
+
                         </li>
                     ))}
                 </ul>
