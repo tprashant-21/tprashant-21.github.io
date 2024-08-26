@@ -32,7 +32,7 @@ const LandingSection = () => {
         initial={{ opacity: 0 }}
         animate={{ opacity: .3, transition: {delay:0, duration: 1.7, ease: "easeOut"}}}
         className=" absolute pt-[60px] tablet:pt-0 opacity-30  top-[50px] font-bg-font font-extrabold text-[52px] tablet:text-[105px] laptop:text-[150px] normal:text-[200px] 
-        text-center tracking-[5px] leading-[60px] tablet:tracking-[10px] tablet:leading-[115px] laptop:leading-[160px] normal:leading-[200px]">I'M A <span className="text-[20px]">FULL STACK</span><br/>  
+        text-center tracking-[5px] leading-[60px] tablet:tracking-[10px] tablet:leading-[115px] laptop:leading-[160px] normal:leading-[200px]">I'M A FULL STACK<br/>  
         <span  
         onMouseEnter={handleMouseOver} onMouseLeave={handleMouseOut}
         className={`text-[72px] tablet:text-[150px] laptop:text-[200px] normal:text-[262px] tracking-[-2px] tablet:tracking-[-10px]`}>{hovered? "DESIGNER" : "ENGINEER"}</span>
