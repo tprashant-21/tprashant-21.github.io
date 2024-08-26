@@ -28,10 +28,10 @@ const ContactSec = () => {
            whileInView={{opacity: 1, transition: {duration: 1, stiffness: 100, type: "spring"}}}
            viewport={{ amount: 0.9, once: false }}
            >
-          <Paragraph text="Hey there! I hope you liked my projects above. I'm Prashant, an up-and-coming frontend connoisseur. With dual degrees in Computer Science and Arts & Design, my passion lies in crafting mesmerizing digital experiences that push the boundaries of imagination." />
-          <Paragraph text="Currently, I'm weaving my magic as a Web Designer at Springfield College. I am also working as a Research Assistant building frontend system for the Motion Tracker Lab (a Computer Vision Research program) 🔬✨" />
-          <Paragraph text="With a handful of impressive work experiences already under my belt, my journey is an exhilarating tale of blending creativity and coding to create websites that leave visitors awe-inspired. 💫🌐" />
-          <Paragraph text="If you're seeking a web wizard who thrives on innovation and has the skills to bring dreams to life on the digital canvas, look no further! Let's weave a spell of excellence together. 🌟🎉" />
+          <Paragraph text="Hey there! I hope you liked my projects above. I'm Prashant, a Full Stack Software Engineer at Rediker Software. With double major in Computer & Information Sciences and Art & Design, my passion lies in crafting intuitive yet creative digital experiences in softwares and design." />
+          <Paragraph text="My previous roles as Web Developer at Springfield College and an Undergrad Research Assistant for Motion Tracker Lab (a Computer Vision research software) have made my software development foundation very strong." />
+          <Paragraph text="With a handful of impressive experiences already under my belt, my journey is an exhilarating tale of blending design and coding to create software solutions that is efficient and pleasing. " />
+          <Paragraph text="If you're seeking a jack-of-all-trades who thrives on innovation and owns the project with strong passion, look no further!" />
         </motion.div>
 
         <motion.div
