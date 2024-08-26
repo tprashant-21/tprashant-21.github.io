@@ -38,7 +38,7 @@ const Header = () => {
             <div>
                 <PiGraduationCapLight className=" absolute -top-[5px] -left-[40px] text-[23px] tablet:text-[28px]"/>
             </div>
-                <p>Dual degree in CS + Arts & Design </p>
+                <p>Double Major in CS + Art & Design </p>
             </div>
         </div>
 
