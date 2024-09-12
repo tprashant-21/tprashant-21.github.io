@@ -28,10 +28,10 @@ const ContactSec = () => {
            whileInView={{opacity: 1, transition: {duration: 1, stiffness: 100, type: "spring"}}}
            viewport={{ amount: 0.9, once: false }}
            >
-          <Paragraph text="Hey there! I hope you liked my projects above. I'm Prashant, a Full Stack Software Engineer at Rediker Software. With double major in Computer & Information Sciences and Art & Design, my passion lies in crafting intuitive yet creative digital experiences in softwares and design." />
-          <Paragraph text="My previous roles as Web Developer at Springfield College and an Undergrad Research Assistant for Motion Tracker Lab (a Computer Vision research software) have made my software development foundation very strong." />
-          <Paragraph text="With a handful of impressive experiences already under my belt, my journey is an exhilarating tale of blending design and coding to create software solutions that is efficient and pleasing. " />
-          <Paragraph text="If you're seeking a jack-of-all-trades who thrives on innovation and owns the project with strong passion, look no further!" />
+          <Paragraph text="Hey there! I'm Prashant Timalsina, a Full Stack Software Engineer at Rediker Software with a unique blend of expertise in Computer Science and Art & Design. My passion lies in creating digital experiences that are not only functional but also visually engaging, ensuring a seamless fusion of technology and creativity." />
+          <Paragraph text="In my previous roles as a Web Developer at Springfield College and an Undergraduate Research Assistant for the Motion Tracker Lab—where I worked on a cutting-edge Computer Vision research software—I strengthened my foundation in software development, mastering both the technical and aesthetic aspects of building intuitive systems." />
+          <Paragraph text="With a diverse range of experience in design and development, my journey is a testament to the powerful synergy between code and creativity. I thrive on crafting software solutions that are as efficient as they are beautiful, delivering user-friendly interfaces that solve real-world problems." />
+          <Paragraph text="If you're looking for a versatile, innovation-driven engineer who brings passion and ownership to every project, I'd love to help turn your ideas into reality!" />
         </motion.div>
 
         <motion.div
