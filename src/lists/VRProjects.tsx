@@ -6,7 +6,7 @@ export const VRProjects = [
         detail: "This project is built for VR enthusiats as well as VR developers who wants try some insanely close to life exprience in a street basketball setting",
         tech: ["Unity","C#", "URP", "XR Interaction Toolkit", "XR Plugin Management","Oculus XR Plugin"],
         github: "https://github.com/tprashant-21/BasketBrawl",
-        live: "https://drive.google.com/file/d/1GjMufC5RlJfBPNFzH1voLtXEcOzn8_XU/view?usp=drive_link",
+        live: "https://drive.google.com/file/d/12QYR2AiFN5fZ28C4fGLDmZHH3jid68Ah/view?usp=sharing",
         image: "/vr-basketbrawl.webp"
     },
     {
@@ -16,7 +16,7 @@ export const VRProjects = [
         detail: "We incorporated the art works of our professors and added our touch of what we think the Gallery should look like. Click on 'Source' to watch the funny video of Professor InDelicato trying it out for the first time.",
         tech: ["Unity", "C#", "Autodesk Maya", "URP", "XR Interaction Toolkit","Oculus XR Plugin"],   
         github: "https://github.com/tprashant-21/VAPA-Gallery-VR",
-        live: "https://drive.google.com/file/d/1GW-hnLc9t3YAQ6QITRWiDNmHl7Qph60_/view?usp=drive_link",
+        live: "https://drive.google.com/file/d/18qjVnvJ900w3wDMYNC131Hdbe-BkgLWu/view?usp=sharing",
         image: "/vr-gallery.webp"
     },
     {
@@ -26,7 +26,7 @@ export const VRProjects = [
         detail: "You can walk around and observe the car as if you are in a showroom. In addition, you can interact with the XR UI to change the color of the car, rotation, time of the day and also make it do a moving demo.",
         tech: ["Unity","C#", "URP", "XR Interaction Toolkit", "XR Plugin Management","Oculus XR Plugin"],
         github: "https://github.com/tprashant-21/Dupsum-VR-Car-Showroom",
-        live: "https://drive.google.com/file/d/1RbhRtF8FTKPDEG7iz4qolLB6p7MdYv4_/view?usp=drive_link",
+        live: "https://drive.google.com/file/d/1Zgnl7pfI7HSYPDFqnhAiiBlwC4sMS2tZ/view?usp=sharing",
         image: "/vr-dupsum.webp"
     },
     {
@@ -36,7 +36,7 @@ export const VRProjects = [
         detail: "I learned a lot about the particle system and how to use it to create beautiful simulations. I also learned about the physics behind the spiral galaxy rotation.",
         tech: ["Unity", "Particle System"],
         github: "https://github.com/tprashant-21/GalaxyRotationSimulation",
-        live: "https://drive.google.com/file/d/1swx8OQLq38l24KKFeplFOodBAjdjdD4Y/view?usp=drive_link",
+        live: "https://drive.google.com/file/d/1Zgnl7pfI7HSYPDFqnhAiiBlwC4sMS2tZ/view?usp=sharing",
         image: "/vr-galactic-rotation.webp"
     },
     {
@@ -45,8 +45,8 @@ export const VRProjects = [
         description: "A 3D model of entire Springfield College, modeled and 3D printed. Me and a talented friend of mine, Andreas Varnauskas (Multimedia Design major), collaborated on this as a group project for Advanced Design Studio class. We used Autodesk MAYA for 3D modeling.",
         detail: " This 3D model is a great way to visualize the entire campus in a 3D space. We also printed the model and presented it at “VAPA Undergraduate Student Art Show” at Springfield College.",
         tech: ["HTML", "CSS", "JavaScript"],
-        github: "https://drive.google.com/file/d/13ggOyzuDoy2kdbmZ-GfQZZIRqAdtavVA/view?usp=drive_link",
-        live: "https://github.com/tprashant-21/SpringfieldCollege-3D-modelled",
+        github: "https://github.com/tprashant-21/SpringfieldCollege-3D-modelled",
+        live: "https://drive.google.com/file/d/1CQI9Ut4kGmU_h0gE2lwGevraFZvuen7_/view?usp=sharing",
         image: "/vr-springfield-college.webp"
     },
     ];
