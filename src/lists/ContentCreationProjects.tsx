@@ -25,14 +25,14 @@ export const ContentCreationProjects = [
         description: "I undertook this project while I was the Excecutive Board member of the Honors program. I was responsible for the entire production process, from reaching to faculties for their schedule to editing it.",
         detail: "A big shout out to Dr. Rebecca Lartigue, the Director of Honors Program, for driving me around while shooting and her support throughout the process. It was a big hit among the students and faculties. There is no second opinion on it being a great way to promote the Honors program in a fun way.",
         tech: ["Adobe Premiere Pro", "Adobe Photoshop"],
-        github: "https://drive.google.com/file/d/1ZcNzxAjPe4L8pPt989AsZy693Fr10BKR/view?usp=drive_link",
-        live: "https://drive.google.com/file/d/1ZcNzxAjPe4L8pPt989AsZy693Fr10BKR/view?usp=drive_link",
+        github: "https://drive.google.com/file/d/1te-2M_cRNOzG-R6pB6gR9G85YrWH7_Ow/view?usp=sharing",
+        live: "https://drive.google.com/file/d/1te-2M_cRNOzG-R6pB6gR9G85YrWH7_Ow/view?usp=sharing",
         image: "/content-honors.webp"
     },
     {
         id: 4,
         title: "Annual Pride Parade",
-        description: "I was asked to cover Springfield College's Annual Pride Parade at Alden Street, Springfield, MA. I was single-handedly responsible for the entire production process, from shooting to editing it.",
+        description: "I was asked to cover Springfield College's Annual Pride Parade at Alden Street, Springfield, MA.",
         detail : "I had never been to a Pride Parade before, but I think I did a good job at capturing the moments and the spirit of the Parade. This experience allowed me to learn more about cinematography and improvisation while shooting.",
         tech: ["Adobe Premiere Pro", "SoundStripe"],
         github: "https://www.instagram.com/reel/CqYaznbphLa/",
