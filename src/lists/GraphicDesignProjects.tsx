@@ -5,8 +5,8 @@ export const GraphicDesignProjects = [
         description: "An infographic about the world's major religions. This was my Graphic Design class final project. I got to learn to concisely communicate an idea through symbols and icons, in order to convey more complex and quantitative information such as this.  ",
         detail: "I think I did a pretty good job at comparing and contrasting with the use of icons and symbols. I also created a hierarchy and structure among the data that clearly and efficiently conveys the information.",
         tech: ["Adobe Illustrator"],
-        github: "https://drive.google.com/file/d/1X4ciSnW2wF5Q1gvQ7qmSmwpHAkBCKFM2/view?usp=drive_link",
-        live: "https://drive.google.com/file/d/1U5n64TMqnVNmiA-7rUGO1Au9HF_9398V/view?usp=drive_link",
+        github: "https://drive.google.com/file/d/1SVqCPcH0OzPMaoNuRtK77mj3anFsm-rs/view?usp=sharing",
+        live: "https://drive.google.com/file/d/1TvnMNadPP0dFyEX0EFJXtC5S1ZYet-zm/view?usp=sharing",
         image: "/graphic-religion.webp"
     },
     {
@@ -15,8 +15,8 @@ export const GraphicDesignProjects = [
         description: "This was a fun project where I had to choose a well known movie and create four icons that represent it. To do this, one must reduce a narrative work (movie, story, or event ) into its basic elements.",
         detail: `I picked "Fast & Furious". I made sure all my icons are in the same style and color scheme. I also made sure that the icons are easily recognizable and understandable.`,
         tech: ["Adobe Illustrator"],   
-        github: "https://drive.google.com/file/d/1tTUpou6CMrYO3szTvYmmCkDFO8ApMp5B/view?usp=drive_link",
-        live: "https://drive.google.com/file/d/1dGn291PcaplSmv8B85JbBgc_0fJJ4f14/view?usp=drive_link",
+        github: "https://drive.google.com/file/d/188Tm4L8WrFmBPRKl8rSgocNHvvkNfyu8/view?usp=sharing",
+        live: "https://drive.google.com/file/d/1eAO4pyhtNH_XBhNDw7qh4o7UeS9v_mAL/view?usp=sharing",
         image: "/graphic-four-icons.webp"
     },
     {
@@ -25,8 +25,8 @@ export const GraphicDesignProjects = [
         description: "5 symbols that is inspired by pig. This was my Graphic Design class project. I got to learn about the symbolism of animals and how to use them to communicate a message.",
         detail: "I tried to give it a unified feel in terms of content and form -- scale, style, subject. I made so many sketches and iterations to finally refine and render those into new symbols in Illustrator as vectors.",
         tech: ["Adobe Illustrator"],
-        github: "https://drive.google.com/file/d/1nv9vCzSnzQIIhVmdPhlCVJdTis22n-tt/view?usp=drive_link",
-        live: "https://drive.google.com/file/d/1IU8vlbhHd75qes0mvb3Ws4ig6vz9RI5R/view?usp=drive_link",
+        github: "https://drive.google.com/file/d/1YIzDUg8bH70IGzGaeny84SYpGTf950BR/view?usp=sharing",
+        live: "https://drive.google.com/file/d/1nfMZBXnwb57qvfDJpuZveFjWBXoEfVO3/view?usp=sharing",
         image: "/graphic-pig.webp"
     },
     {
@@ -35,8 +35,8 @@ export const GraphicDesignProjects = [
         description: "I made a book cover for the novel, The Metamorphosis by Franz Kafka. This was my Graphic Design class project. I carefully read the book and tried to understand the theme and the message of the book.",
         detail: "I constructed a moodboard - textures, typography, color palettes, photography, format examples, visual metaphors, patterns, shapes, and words - that later became my visual language of my concept. I made three different concepts.",
         tech: ["Adobe Illustrator"],
-        github: "https://drive.google.com/file/d/1Cwl4hsbJqlW6pO_IwHcd7L2rr7d0MWmc/view?usp=drive_link",
-        live: "https://drive.google.com/file/d/1C40EY0WjMtJZ-9Kbckr_LY3yYhRo2Yv8/view?usp=drive_link",
+        github: "https://drive.google.com/file/d/1zPvlpGoj8aA0JEpmb-Wgu4iWaVMPy8yi/view?usp=sharing",
+        live: "https://drive.google.com/file/d/1z79aNLIQ8eZcPIeSjvDY61AbfXeN8J4_/view?usp=sharing",
         image: "/graphic-metamorphosis.webp"
     },
     // {
