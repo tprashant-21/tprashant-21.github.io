@@ -36,7 +36,7 @@ export const GraphicDesignProjects = [
         detail: "I constructed a moodboard - textures, typography, color palettes, photography, format examples, visual metaphors, patterns, shapes, and words - that later became my visual language of my concept. I made three different concepts.",
         tech: ["Adobe Illustrator"],
         github: "https://drive.google.com/file/d/1zPvlpGoj8aA0JEpmb-Wgu4iWaVMPy8yi/view?usp=sharing",
-        live: "https://drive.google.com/file/d/1z79aNLIQ8eZcPIeSjvDY61AbfXeN8J4_/view?usp=sharing",
+        live: "https://drive.google.com/file/d/1FyhqF1vvCV-stzxhVzqDN6fgje87yXQ5/view?usp=sharing",
         image: "/graphic-metamorphosis.webp"
     },
     // {
