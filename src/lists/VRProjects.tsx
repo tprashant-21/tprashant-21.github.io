@@ -36,7 +36,7 @@ export const VRProjects = [
         detail: "I learned a lot about the particle system and how to use it to create beautiful simulations. I also learned about the physics behind the spiral galaxy rotation.",
         tech: ["Unity", "Particle System"],
         github: "https://github.com/tprashant-21/GalaxyRotationSimulation",
-        live: "https://drive.google.com/file/d/1Zgnl7pfI7HSYPDFqnhAiiBlwC4sMS2tZ/view?usp=sharing",
+        live: "https://drive.google.com/file/d/1uRZkftWcZ2jYkadd32Pdz217XV-Lssjl/view?usp=drive_link",
         image: "/vr-galactic-rotation.webp"
     },
     {
